@@ -1,0 +1,400 @@
+﻿question_id,strategy,question,gold_source_id,gold_pages,top3_chunk_ids,top3_text,grounding_0_to_2,rationale
+T01,A_fixed,"Tập dữ liệu của nghiên cứu Tehran Stock Exchange gồm bao nhiêu cổ phiếu, được chia train/test ra sao và có xử lý độ trễ công bố báo cáo thế nào?",arxiv-2412.05297v1,13,arxiv-2412.05297v1:13:9976ee7064d958c330c7edf2;arxiv-2412.05297v1:13:0e65df00d7e8ae78293ff377;arxiv-2412.05297v1:6:9cd9985aca917c3f54194901,"ure set is normalized with the standard scaler for better model
+convergence.
+5.4 Dataset
+The dataset consists of 413 stocks in the Tehran Stock Exchange (TSE) that
+publish financial reports regularly. The industry share of total market symbols
+and market capitalization distribution across industry sectors are presented in
+figures 3 and 4 respectively. For stock return prediction, we used adjusted stock
+prices (that were normalized with regard to capital increase and DPS). The
+collected data
+---
+d to capital increase and DPS). The
+collected data covers the period from 2015 to 2024. For the training set, we
+used the %75 of the data sorted by the earliest publish date, and the other %25
+of the data was used for the testing data.
+The publishing of financial reports has a one-month lag from the scheduled
+time, and we incorporated this delay in simulations and experiments. With this
+regard, we have a more accurate simulation of the real world.
+5.5 Results
+For the evaluation of the proposed
+---
+nies listed in the Tehran
+Stock Exchange (TSE) are obliged to publish their financial reports regularly
+in each quarter. The three main financial reports are the balance sheet, income
+statement, and statement of cash flow. These reports are available for traders
+in different formats: PDF, Excel, and HTML. The most challenging problems
+for accessing data are:
+6",,
+T02,A_fixed,Tỷ trọng bốn nhóm feature trong hình phân phối của nghiên cứu Tehran Stock Exchange là bao nhiêu?,arxiv-2412.05297v1,12,arxiv-2412.05297v1:13:9976ee7064d958c330c7edf2;arxiv-2412.05297v1:12:1b434be11324cd8eb04239b7;arxiv-2412.05297v1:2:9f6379e413c95d717eadb072,"ure set is normalized with the standard scaler for better model
+convergence.
+5.4 Dataset
+The dataset consists of 413 stocks in the Tehran Stock Exchange (TSE) that
+publish financial reports regularly. The industry share of total market symbols
+and market capitalization distribution across industry sectors are presented in
+figures 3 and 4 respectively. For stock return prediction, we used adjusted stock
+prices (that were normalized with regard to capital increase and DPS). The
+collected data
+---
+So far, we prepared multiple feature categories that indicate the company’s
+financial performance to predict stock return. We tried to model an expert an-
+alyst’s workmanship in studying stock and market conditions. The distribution
+of feature types is illustrated in figure 2.
+Financial ratio
+61%
+Macro and
+market
+18%
+Stock trading
+13%
+Stock type
+8%
+Figure 2: Distribution of features by feature type
+5.2 Problem formulation
+The stock return prediction is generally formulated as follows: Given the
+---
+g fundamental data, stock trading
+characteristics, and macro-economic attributes to enhance predictive accuracy,
+(3) Evaluating the DSS performance on the Tehran Stock Exchange that has
+specific characteristics of small to medium-sized economies with high inflation
+rates and showing the superiority to novel researches, and (4) Empowering the
+DSS to generate different asset allocation strategies in various economic situa-
+tions by simulating expert investor decision-making.
+Keywords: Stock",,
+T03,A_fixed,"Chỉ tra cứu tài liệu có metadata year=2026. Nghiên cứu backtest với vốn ban đầu bao nhiêu, trong giai đoạn nào và trên bao nhiêu mã S&P 500?",arxiv-2601.19504v1,8,arxiv-2601.19504v1:8:0c8438cdc13222ed5a0ec171;arxiv-2412.05297v1:16:92891a545199edc67171af4c;arxiv-2412.05297v1:20:12d6165f8eed9b97b43dc419,"altered freely without issue.
+System’s historical simulation backtesting was performed with
+Backtrader. This powerful event driven Backtest engine simu-
+lates market activity in real time ensuring that trading happens
+only within the bounds of pre-known market information.
+The model was executed with a starting capital of $100,000
+and set to trade during a two-year backtest period starting
+January 1, 2023, until January 1, 2025. This period features a
+rich blend of markets including
+---
+0%
+150.00%
+200.00%
+250.00%
+2022-07 2022-10 2023-01 2023-04 2023-07 2023-10 2024-01 2024-04 2024-07 2024-10
+Baseline-1 Baseline-2 Baseline-3 Proposed method
+Figure 6: Cumulative return of methods in test period
+16
+---
+50.00%
+-25.00%
+0.00%
+25.00%
+50.00%
+2022-10 2023-01 2023-04 2023-07 2023-10 2024-01 2024-04 2024-07 2024-10
+Proposed method Market index Equal-Weight index Gold fund Baseline-1 Baseline-2 Baseline-3
+Figure 9: Three months real return of strategies in test period
+20",,
+T04,A_fixed,"Chỉ tra cứu tài liệu có metadata year=2026. Trong so sánh hybrid với baseline, final portfolio value và total return của mỗi bên là bao nhiêu?",arxiv-2601.19504v1,9,arxiv-2601.19504v1:9:5ff2e6b9814b40b56cc910a9;arxiv-2412.05297v1:16:92891a545199edc67171af4c;arxiv-2601.19504v1:9:4d41986fb1c2e1cac968d868,"RSI (14). There was no adaptive
+sentiment scaling, adaptive sizing, or any form of sentiment
+filtering, and the entirety lacked machine learning components.
+Metric Hybrid Strategy Baseline Strategy
+Final Portfolio Value $235,492.83 $108,643.27
+Market Value of Positions $166,042.01 $29,184.72
+Cash Balance ($) $69,450.82 $79,458.55
+Total Return (%) 135.49% 8.64%
+CAGR (%) 53.46% 4.23%
+Max Drawdown (%) -15.6% -19.84%
+Sharpe Ratio 1.68 0.48
+Win Ratio (%) 61.5% 53.40%
+Avg Holding Period (days) 5.8
+---
+0%
+150.00%
+200.00%
+250.00%
+2022-07 2022-10 2023-01 2023-04 2023-07 2023-10 2024-01 2024-04 2024-07 2024-10
+Baseline-1 Baseline-2 Baseline-3 Proposed method
+Figure 6: Cumulative return of methods in test period
+16
+---
+tio (%) 61.5% 53.40%
+Avg Holding Period (days) 5.8 11.4
+TABLE I
+COMPARISON OFHYBRID ANDBASELINETRADINGSTRATEGIES
+The hybrid model outperformed the baseline by more than
+126% in total return. The CAGR exceeding 50% substantiates
+that the hybrid model not only enhances the magnitude of re-
+turn but also improves the efficiency of compounding. Sharpe
+ratio of 1.68 evidences greater performance on risk-adjusted
+metrics relative to the baseline, exceeding it by 250%.
+The hybrid model achieved a",,
+T05,A_fixed,"Theo algorithm, ngoài việc chưa có vị thế mở, hệ thống yêu cầu những điều kiện nào trước khi mở vị thế mua?",arxiv-2601.19504v1,7,arxiv-2601.19504v1:7:51eb99b5d2af5897f8b79a3f;arxiv-2601.19504v1:7:871776d88e4b5ef4511ff92d;arxiv-2601.19504v1:7:2a9aa887b2da4b40e8c68af2,"ution logic is given in
+Algorithm 1.
+A position is opened if no existing position is detected using
+volatility-based sizing. V olatility-based cash sizing is defined
+as
+Shares= min
+ 0.01×Cash
+ATR
+
+,
+ 0.1×Cash
+Price
+
+H. Logging And Reporting
+All trades are entered with a timestamp, symbol, action, size,
+and portfolio value. An ongoing record of average cost and
+shares per stock is kept. Upon strategy cessation, the following
+key observations are:Final Portfolio V alue, Remaining
+---
+←
+ 0.1×Cash
+Pt
+
+18shares←min(shares AT R,shares cap)
+19ifshares>0then
+20return Buy(shares)
+21end
+22end
+23Step 5: Exit Logic
+24ifˆy t = 0orR t is BearishorRSI 14 >70or
+St <−0.70then
+25return Sell (Full Position)
+26end
+27return Hold
+---
+y, Sell, or Hold
+1Step 1: Feature Normalization
+2X scaledt ←scaler.transform(X t)
+3Step 2: ML Prediction
+4ˆyt ←model.predict(X scaledt )
+5Step 3: Hybrid Score Computation
+6score←ˆy t
+7ifP t >EMA 50 andMACD>Signalthen
+8score←score+ 1
+9end
+10ifRSI 14 <30then
+11score←score+ 1
+12end
+13Step 4: Entry Logic
+14ifR t is BullishandP t >EMA 200 andscore≥2
+and no open positionthen
+15Risk trade ←0.01×Cash
+16shares AT R←
+Risktrade
+ATR
+
+17shares cap ←
+ 0.1×Cash
+Pt
+
+18shares←min(shares AT R,shares",,
+T01,B_paragraph,"Tập dữ liệu của nghiên cứu Tehran Stock Exchange gồm bao nhiêu cổ phiếu, được chia train/test ra sao và có xử lý độ trễ công bố báo cáo thế nào?",arxiv-2412.05297v1,13,arxiv-2412.05297v1:13:c4f1157e5eed644d7342c697;arxiv-2412.05297v1:6:ff7b9117fd9919a87fbf0479;arxiv-2412.05297v1:7:fc36ae5ddbec15f474b7732a,"5.4 Dataset The dataset consists of 413 stocks in the Tehran Stock Exchange (TSE) that publish financial reports regularly. The industry share of total market symbols and market capitalization distribution across industry sectors are presented in figures 3 and 4 respectively. For stock return prediction, we used adjusted stock
+
+prices (that were normalized with regard to capital increase and DPS). The collected data covers the period from 2015 to 2024. For the training set, we used the %75 of the data sorted by the earliest publish date, and the other %25 of the data was used for the testing data.
+
+The publishing of financial reports has a one-month lag from the scheduled time, and we incorporated this delay in simulations and experiments. With this regard, we have a more accurate simulation of the real world.
+---
+Similar to the well-established stock markets, companies listed in the Tehran Stock Exchange (TSE) are obliged to publish their financial reports regularly in each quarter. The three main financial reports are the balance sheet, income statement, and statement of cash flow. These reports are available for traders in different formats: PDF, Excel, and HTML. The most challenging problems
+
+for accessing data are: 6
+---
+2) Data Cleaning:In this step, the main activity is cleaning of the semi- structured reports, including normalizing texts and numbers, mapping reports to a unified format, and etc. For later access to the cleaned data, we save it in JSON format in the SQL database.
+
+3) Data Loading:The third step is for loading data from stored JSONs and merging sequential reports published quarterly. This stage speeds up the data processing and acts as a caching system.
+
+4) Stock Modeling:The main part of the system is training a model that can predict stock return in various periods. For this purpose, different cate- gories of features are prepared for predicting stock return and a machine learning model is trained.",,
+T02,B_paragraph,Tỷ trọng bốn nhóm feature trong hình phân phối của nghiên cứu Tehran Stock Exchange là bao nhiêu?,arxiv-2412.05297v1,12,arxiv-2412.05297v1:11:680c5151b1950aee7d19a28f;arxiv-2412.05297v1:13:c4f1157e5eed644d7342c697;arxiv-2412.05297v1:6:ff7b9117fd9919a87fbf0479,"So the features listed in table 4, appended to the features list, that had a good effect on model accuracy. In Iran’s capital market, the strength of the na- tional currency against other currencies, specifically the dollar, is essential data in examining the company’s performance and the attractiveness of the capital market.
+
+F eature Description Gov. Bonds Return Government Bonds Last Month Av-erage Return USD/IRR Exchange Rate The value of the U.S. dollar (USD)against the Iranian rial (IRR) USD/IRR Exchange Rate Return The USD/IRR last month return Equal-Weight Index Return Equal-Weight Index last month re-turn
+
+Market Index Value The market capitalization weightedindex of TSE Market Index Return Weighted index three months return Gold Spot USD-Return 1 month return
+
+Table 4: Macroeconomic and market features 11
+---
+5.4 Dataset The dataset consists of 413 stocks in the Tehran Stock Exchange (TSE) that publish financial reports regularly. The industry share of total market symbols and market capitalization distribution across industry sectors are presented in figures 3 and 4 respectively. For stock return prediction, we used adjusted stock
+
+prices (that were normalized with regard to capital increase and DPS). The collected data covers the period from 2015 to 2024. For the training set, we used the %75 of the data sorted by the earliest publish date, and the other %25 of the data was used for the testing data.
+
+The publishing of financial reports has a one-month lag from the scheduled time, and we incorporated this delay in simulations and experiments. With this regard, we have a more accurate simulation of the real world.
+---
+Similar to the well-established stock markets, companies listed in the Tehran Stock Exchange (TSE) are obliged to publish their financial reports regularly in each quarter. The three main financial reports are the balance sheet, income statement, and statement of cash flow. These reports are available for traders in different formats: PDF, Excel, and HTML. The most challenging problems
+
+for accessing data are: 6",,
+T03,B_paragraph,"Chỉ tra cứu tài liệu có metadata year=2026. Nghiên cứu backtest với vốn ban đầu bao nhiêu, trong giai đoạn nào và trên bao nhiêu mã S&P 500?",arxiv-2601.19504v1,8,arxiv-2601.19504v1:8:0bd8a58c3a3ceb1a3a5e27a1;arxiv-2601.19504v1:5:e06e760b6c2c156d97acd03c;arxiv-2601.19504v1:7:4a3ce12e6fe2fbd40cceaf81,"System’s historical simulation backtesting was performed with Backtrader. This powerful event driven Backtest engine simu- lates market activity in real time ensuring that trading happens only within the bounds of pre-known market information.
+
+The model was executed with a starting capital of $100,000 and set to trade during a two-year backtest period starting January 1, 2023, until January 1, 2025. This period features a rich blend of markets including inflationary tightening cycles with rate increases, earnings volatility as well as post-COVID
+
+sectoral rebounds from the COVID-19 pandemic which serve to intensely stress the tested strategy’s resilience.
+---
+Supporting a multi-stock trading universe of over 100 S&P500® tickers, the system supports long-only directional trading strategies with daily resolution, albeit restricted by sentiment risk filters and volatility-based position sizing.
+
+B. Data Acquisition The system is built on the foundation of data acquisition. We obtain historical OHLCV (Open, High, Low, Close, V olume) data through the yfinance API. Stocks are chosen from a diversified pool which include technology (e.g. AAPL, MSFT,
+
+NVDA), financials (e.g. JPM, BAC), and other sectors. The dataset spans from 01/01/2019 to 01/01/2025, amounting to multiple macroeconomic cycles (COVID crash, recovery, inflation shocks) during this period.
+---
+G. Strategy Execution Logic The strategy execution engine is implemented using the Back- trader framework. The strategy execution logic is given in Algorithm 1.
+
+A position is opened if no existing position is detected using volatility-based sizing. V olatility-based cash sizing is defined as Shares= min  0.01×Cash
+
+ATR  ,  0.1×Cash Price
+
+
+
+H. Logging And Reporting All trades are entered with a timestamp, symbol, action, size, and portfolio value. An ongoing record of average cost and shares per stock is kept. Upon strategy cessation, the following key observations are:Final Portfolio V alue, Remaining Cash,
+
+Total Return (%), CAGR, Max Drawdown, Sharpe Ratio, Win Ratio, Avg Holding Period.
+
+These metrics are calculated and logged in portfolio log.txt.",,
+T04,B_paragraph,"Chỉ tra cứu tài liệu có metadata year=2026. Trong so sánh hybrid với baseline, final portfolio value và total return của mỗi bên là bao nhiêu?",arxiv-2601.19504v1,9,arxiv-2601.19504v1:9:d5efc763b14a83bf9abac32f;arxiv-2601.19504v1:9:638c1a34a3fca640d8ac801b;arxiv-2601.19504v1:10:50e1412a8853cfaaddf74b8a,"simulation, enabling re-calculation and validation of results while maintaining reproducibility standards of empirical sci- ence.
+
+B. Experiment 1: Baseline vs. Hybrid Strategy Comparison To assess the performance of the hybrid architecture, we evaluated it with a traditional rule-based baseline strategy.
+
+The baseline performed trend confirmation using simple mov- ing average (SMA-50/SMA-200) crossovers, and for mean- reversion entries employed RSI (14). There was no adaptive sentiment scaling, adaptive sizing, or any form of sentiment filtering, and the entirety lacked machine learning components.
+
+Metric Hybrid Strategy Baseline Strategy Final Portfolio Value $235,492.83 $108,643.27 Market Value of Positions $166,042.01 $29,184.72 Cash Balance ($) $69,450.82 $79,458.55 Total Return (%) 135.49% 8.64%
+---
+CAGR (%) 53.46% 4.23% Max Drawdown (%) -15.6% -19.84% Sharpe Ratio 1.68 0.48 Win Ratio (%) 61.5% 53.40% Avg Holding Period (days) 5.8 11.4
+
+TABLE I COMPARISON OFHYBRID ANDBASELINETRADINGSTRATEGIES The hybrid model outperformed the baseline by more than 126% in total return. The CAGR exceeding 50% substantiates that the hybrid model not only enhances the magnitude of re-
+
+turn but also improves the efficiency of compounding. Sharpe ratio of 1.68 evidences greater performance on risk-adjusted metrics relative to the baseline, exceeding it by 250%.
+---
+through the use of ATR, while maintaining risk-parity and efficient capital allocation across the portfolio.
+
+Research results show that the provided system outperformed both traditional rule-based systems and passive benchmark indexes. The hybrid strategy’s market value of open positions reached $166,042.01 and cash balance of $69,450.82 having started with $100,000, resulting in a total return of 135.49%
+
+and CAGR of 53.46%. These results along with risk-adjusted metrics of Sharpe Ratio 1.68 and Max Drawdown -15.6 indicate the system’s effectiveness in sustaining capital during market downswings while maximizing upside during market lulls. The comparative analysis showed that the hybrid model",,
+T05,B_paragraph,"Theo algorithm, ngoài việc chưa có vị thế mở, hệ thống yêu cầu những điều kiện nào trước khi mở vị thế mua?",arxiv-2601.19504v1,7,arxiv-2601.19504v1:7:3600a7faf245817974d86e56;arxiv-2601.19504v1:7:4a3ce12e6fe2fbd40cceaf81;arxiv-2601.19504v1:7:28a90847d6e844d3b7beeca9,"21end 22end 23Step 5: Exit Logic 24ifˆy t = 0orR t is BearishorRSI 14 >70or St <−0.70then
+
+25return Sell (Full Position) 26end 27return Hold
+---
+G. Strategy Execution Logic The strategy execution engine is implemented using the Back- trader framework. The strategy execution logic is given in Algorithm 1.
+
+A position is opened if no existing position is detected using volatility-based sizing. V olatility-based cash sizing is defined as Shares= min  0.01×Cash
+
+ATR  ,  0.1×Cash Price
+
+
+
+H. Logging And Reporting All trades are entered with a timestamp, symbol, action, size, and portfolio value. An ongoing record of average cost and shares per stock is kept. Upon strategy cessation, the following key observations are:Final Portfolio V alue, Remaining Cash,
+
+Total Return (%), CAGR, Max Drawdown, Sharpe Ratio, Win Ratio, Avg Holding Period.
+
+These metrics are calculated and logged in portfolio log.txt.
+---
+Algorithm 1:Hybrid Strategy Execution Engine Input:Feature vectorX t, Technical indicators: EMA 50, EMA 200, MACD, Signal, RSI 14, ATR, RegimeR t, SentimentS t, PriceP t, Cash
+
+balance, Trained scaler and XGBoost model Output:Trade Action: Buy, Sell, or Hold 1Step 1: Feature Normalization 2X scaledt ←scaler.transform(X t)
+
+3Step 2: ML Prediction 4ˆyt ←model.predict(X scaledt ) 5Step 3: Hybrid Score Computation 6score←ˆy t 7ifP t >EMA 50 andMACD>Signalthen
+
+8score←score+ 1 9end 10ifRSI 14 <30then 11score←score+ 1 12end
+
+13Step 4: Entry Logic 14ifR t is BullishandP t >EMA 200 andscore≥2 and no open positionthen 15Risk trade ←0.01×Cash 16shares AT R←
+
+Risktrade ATR  17shares cap ←  0.1×Cash
+
+Pt  18shares←min(shares AT R,shares cap) 19ifshares>0then 20return Buy(shares)",,
+T01,C_paragraph_filter,"Tập dữ liệu của nghiên cứu Tehran Stock Exchange gồm bao nhiêu cổ phiếu, được chia train/test ra sao và có xử lý độ trễ công bố báo cáo thế nào?",arxiv-2412.05297v1,13,arxiv-2412.05297v1:13:c4f1157e5eed644d7342c697;arxiv-2412.05297v1:6:ff7b9117fd9919a87fbf0479;arxiv-2412.05297v1:7:fc36ae5ddbec15f474b7732a,"5.4 Dataset The dataset consists of 413 stocks in the Tehran Stock Exchange (TSE) that publish financial reports regularly. The industry share of total market symbols and market capitalization distribution across industry sectors are presented in figures 3 and 4 respectively. For stock return prediction, we used adjusted stock
+
+prices (that were normalized with regard to capital increase and DPS). The collected data covers the period from 2015 to 2024. For the training set, we used the %75 of the data sorted by the earliest publish date, and the other %25 of the data was used for the testing data.
+
+The publishing of financial reports has a one-month lag from the scheduled time, and we incorporated this delay in simulations and experiments. With this regard, we have a more accurate simulation of the real world.
+---
+Similar to the well-established stock markets, companies listed in the Tehran Stock Exchange (TSE) are obliged to publish their financial reports regularly in each quarter. The three main financial reports are the balance sheet, income statement, and statement of cash flow. These reports are available for traders in different formats: PDF, Excel, and HTML. The most challenging problems
+
+for accessing data are: 6
+---
+2) Data Cleaning:In this step, the main activity is cleaning of the semi- structured reports, including normalizing texts and numbers, mapping reports to a unified format, and etc. For later access to the cleaned data, we save it in JSON format in the SQL database.
+
+3) Data Loading:The third step is for loading data from stored JSONs and merging sequential reports published quarterly. This stage speeds up the data processing and acts as a caching system.
+
+4) Stock Modeling:The main part of the system is training a model that can predict stock return in various periods. For this purpose, different cate- gories of features are prepared for predicting stock return and a machine learning model is trained.",,
+T02,C_paragraph_filter,Tỷ trọng bốn nhóm feature trong hình phân phối của nghiên cứu Tehran Stock Exchange là bao nhiêu?,arxiv-2412.05297v1,12,arxiv-2412.05297v1:11:680c5151b1950aee7d19a28f;arxiv-2412.05297v1:13:c4f1157e5eed644d7342c697;arxiv-2412.05297v1:6:ff7b9117fd9919a87fbf0479,"So the features listed in table 4, appended to the features list, that had a good effect on model accuracy. In Iran’s capital market, the strength of the na- tional currency against other currencies, specifically the dollar, is essential data in examining the company’s performance and the attractiveness of the capital market.
+
+F eature Description Gov. Bonds Return Government Bonds Last Month Av-erage Return USD/IRR Exchange Rate The value of the U.S. dollar (USD)against the Iranian rial (IRR) USD/IRR Exchange Rate Return The USD/IRR last month return Equal-Weight Index Return Equal-Weight Index last month re-turn
+
+Market Index Value The market capitalization weightedindex of TSE Market Index Return Weighted index three months return Gold Spot USD-Return 1 month return
+
+Table 4: Macroeconomic and market features 11
+---
+5.4 Dataset The dataset consists of 413 stocks in the Tehran Stock Exchange (TSE) that publish financial reports regularly. The industry share of total market symbols and market capitalization distribution across industry sectors are presented in figures 3 and 4 respectively. For stock return prediction, we used adjusted stock
+
+prices (that were normalized with regard to capital increase and DPS). The collected data covers the period from 2015 to 2024. For the training set, we used the %75 of the data sorted by the earliest publish date, and the other %25 of the data was used for the testing data.
+
+The publishing of financial reports has a one-month lag from the scheduled time, and we incorporated this delay in simulations and experiments. With this regard, we have a more accurate simulation of the real world.
+---
+Similar to the well-established stock markets, companies listed in the Tehran Stock Exchange (TSE) are obliged to publish their financial reports regularly in each quarter. The three main financial reports are the balance sheet, income statement, and statement of cash flow. These reports are available for traders in different formats: PDF, Excel, and HTML. The most challenging problems
+
+for accessing data are: 6",,
+T03,C_paragraph_filter,"Chỉ tra cứu tài liệu có metadata year=2026. Nghiên cứu backtest với vốn ban đầu bao nhiêu, trong giai đoạn nào và trên bao nhiêu mã S&P 500?",arxiv-2601.19504v1,8,arxiv-2601.19504v1:8:0bd8a58c3a3ceb1a3a5e27a1;arxiv-2601.19504v1:5:e06e760b6c2c156d97acd03c;arxiv-2601.19504v1:7:4a3ce12e6fe2fbd40cceaf81,"System’s historical simulation backtesting was performed with Backtrader. This powerful event driven Backtest engine simu- lates market activity in real time ensuring that trading happens only within the bounds of pre-known market information.
+
+The model was executed with a starting capital of $100,000 and set to trade during a two-year backtest period starting January 1, 2023, until January 1, 2025. This period features a rich blend of markets including inflationary tightening cycles with rate increases, earnings volatility as well as post-COVID
+
+sectoral rebounds from the COVID-19 pandemic which serve to intensely stress the tested strategy’s resilience.
+---
+Supporting a multi-stock trading universe of over 100 S&P500® tickers, the system supports long-only directional trading strategies with daily resolution, albeit restricted by sentiment risk filters and volatility-based position sizing.
+
+B. Data Acquisition The system is built on the foundation of data acquisition. We obtain historical OHLCV (Open, High, Low, Close, V olume) data through the yfinance API. Stocks are chosen from a diversified pool which include technology (e.g. AAPL, MSFT,
+
+NVDA), financials (e.g. JPM, BAC), and other sectors. The dataset spans from 01/01/2019 to 01/01/2025, amounting to multiple macroeconomic cycles (COVID crash, recovery, inflation shocks) during this period.
+---
+G. Strategy Execution Logic The strategy execution engine is implemented using the Back- trader framework. The strategy execution logic is given in Algorithm 1.
+
+A position is opened if no existing position is detected using volatility-based sizing. V olatility-based cash sizing is defined as Shares= min  0.01×Cash
+
+ATR  ,  0.1×Cash Price
+
+
+
+H. Logging And Reporting All trades are entered with a timestamp, symbol, action, size, and portfolio value. An ongoing record of average cost and shares per stock is kept. Upon strategy cessation, the following key observations are:Final Portfolio V alue, Remaining Cash,
+
+Total Return (%), CAGR, Max Drawdown, Sharpe Ratio, Win Ratio, Avg Holding Period.
+
+These metrics are calculated and logged in portfolio log.txt.",,
+T04,C_paragraph_filter,"Chỉ tra cứu tài liệu có metadata year=2026. Trong so sánh hybrid với baseline, final portfolio value và total return của mỗi bên là bao nhiêu?",arxiv-2601.19504v1,9,arxiv-2601.19504v1:9:d5efc763b14a83bf9abac32f;arxiv-2601.19504v1:9:638c1a34a3fca640d8ac801b;arxiv-2601.19504v1:10:50e1412a8853cfaaddf74b8a,"simulation, enabling re-calculation and validation of results while maintaining reproducibility standards of empirical sci- ence.
+
+B. Experiment 1: Baseline vs. Hybrid Strategy Comparison To assess the performance of the hybrid architecture, we evaluated it with a traditional rule-based baseline strategy.
+
+The baseline performed trend confirmation using simple mov- ing average (SMA-50/SMA-200) crossovers, and for mean- reversion entries employed RSI (14). There was no adaptive sentiment scaling, adaptive sizing, or any form of sentiment filtering, and the entirety lacked machine learning components.
+
+Metric Hybrid Strategy Baseline Strategy Final Portfolio Value $235,492.83 $108,643.27 Market Value of Positions $166,042.01 $29,184.72 Cash Balance ($) $69,450.82 $79,458.55 Total Return (%) 135.49% 8.64%
+---
+CAGR (%) 53.46% 4.23% Max Drawdown (%) -15.6% -19.84% Sharpe Ratio 1.68 0.48 Win Ratio (%) 61.5% 53.40% Avg Holding Period (days) 5.8 11.4
+
+TABLE I COMPARISON OFHYBRID ANDBASELINETRADINGSTRATEGIES The hybrid model outperformed the baseline by more than 126% in total return. The CAGR exceeding 50% substantiates that the hybrid model not only enhances the magnitude of re-
+
+turn but also improves the efficiency of compounding. Sharpe ratio of 1.68 evidences greater performance on risk-adjusted metrics relative to the baseline, exceeding it by 250%.
+---
+through the use of ATR, while maintaining risk-parity and efficient capital allocation across the portfolio.
+
+Research results show that the provided system outperformed both traditional rule-based systems and passive benchmark indexes. The hybrid strategy’s market value of open positions reached $166,042.01 and cash balance of $69,450.82 having started with $100,000, resulting in a total return of 135.49%
+
+and CAGR of 53.46%. These results along with risk-adjusted metrics of Sharpe Ratio 1.68 and Max Drawdown -15.6 indicate the system’s effectiveness in sustaining capital during market downswings while maximizing upside during market lulls. The comparative analysis showed that the hybrid model",,
+T05,C_paragraph_filter,"Theo algorithm, ngoài việc chưa có vị thế mở, hệ thống yêu cầu những điều kiện nào trước khi mở vị thế mua?",arxiv-2601.19504v1,7,arxiv-2601.19504v1:7:3600a7faf245817974d86e56;arxiv-2601.19504v1:7:4a3ce12e6fe2fbd40cceaf81;arxiv-2601.19504v1:7:28a90847d6e844d3b7beeca9,"21end 22end 23Step 5: Exit Logic 24ifˆy t = 0orR t is BearishorRSI 14 >70or St <−0.70then
+
+25return Sell (Full Position) 26end 27return Hold
+---
+G. Strategy Execution Logic The strategy execution engine is implemented using the Back- trader framework. The strategy execution logic is given in Algorithm 1.
+
+A position is opened if no existing position is detected using volatility-based sizing. V olatility-based cash sizing is defined as Shares= min  0.01×Cash
+
+ATR  ,  0.1×Cash Price
+
+
+
+H. Logging And Reporting All trades are entered with a timestamp, symbol, action, size, and portfolio value. An ongoing record of average cost and shares per stock is kept. Upon strategy cessation, the following key observations are:Final Portfolio V alue, Remaining Cash,
+
+Total Return (%), CAGR, Max Drawdown, Sharpe Ratio, Win Ratio, Avg Holding Period.
+
+These metrics are calculated and logged in portfolio log.txt.
+---
+Algorithm 1:Hybrid Strategy Execution Engine Input:Feature vectorX t, Technical indicators: EMA 50, EMA 200, MACD, Signal, RSI 14, ATR, RegimeR t, SentimentS t, PriceP t, Cash
+
+balance, Trained scaler and XGBoost model Output:Trade Action: Buy, Sell, or Hold 1Step 1: Feature Normalization 2X scaledt ←scaler.transform(X t)
+
+3Step 2: ML Prediction 4ˆyt ←model.predict(X scaledt ) 5Step 3: Hybrid Score Computation 6score←ˆy t 7ifP t >EMA 50 andMACD>Signalthen
+
+8score←score+ 1 9end 10ifRSI 14 <30then 11score←score+ 1 12end
+
+13Step 4: Entry Logic 14ifR t is BullishandP t >EMA 200 andscore≥2 and no open positionthen 15Risk trade ←0.01×Cash 16shares AT R←
+
+Risktrade ATR  17shares cap ←  0.1×Cash
+
+Pt  18shares←min(shares AT R,shares cap) 19ifshares>0then 20return Buy(shares)",,

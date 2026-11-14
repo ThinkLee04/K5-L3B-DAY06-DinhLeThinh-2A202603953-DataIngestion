@@ -8,3 +8,6 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 *.sqlite
+
+# This arXiv preprint's record does not grant general redistribution permission.
+starter/data/2412.05297v1.pdf

@@ -1,0 +1,245 @@
+[
+  {
+    "id": "D01",
+    "split": "dev",
+    "type": "direct",
+    "question": "Những thị trường tài chính nào được bài báo nêu là phạm vi phân bổ tài sản của hệ thống?",
+    "expected_answer": "Cổ phiếu, trái phiếu và hàng hóa.",
+    "gold_source_id": "arxiv-2412.05297v1",
+    "gold_page": 2,
+    "evidence_quote": "the proposed system assists investors in predicting stock future prices and allocating assets in major financial markets: stock, bond, and commodity.",
+    "filter": null
+  },
+  {
+    "id": "D02",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Bài báo định nghĩa asset allocation là quyết định gì?",
+    "expected_answer": "Xác định tỷ lệ vốn đầu tư vào từng thị trường tài chính cụ thể, chẳng hạn cổ phiếu, trái phiếu, hàng hóa và tiền mặt.",
+    "gold_source_id": "arxiv-2412.05297v1",
+    "gold_page": 3,
+    "evidence_quote": "Asset allocation is the process of determining the percentage of capital invested in specific financial markets, such as stocks, bonds, commodities, and money.",
+    "filter": null
+  },
+  {
+    "id": "D03",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Chỉ tra cứu tài liệu có metadata year=2024. Bài báo giải thích vì sao số nghiên cứu theo hướng fundamental thấp hơn technical như thế nào?",
+    "expected_answer": "Do khó thu thập dữ liệu, dữ liệu bán cấu trúc và việc mô hình hóa dữ liệu fundamental phức tạp hơn.",
+    "gold_source_id": "arxiv-2412.05297v1",
+    "gold_page": 6,
+    "evidence_quote": [
+      "The number of studies associated with fundamental approaches is much lower than that of technical approaches.",
+      "Reasons for this are harder data gathering, semi-structured data format, more complex modeling of funda- mental data, and so on."
+    ],
+    "filter": {"year": 2024}
+  },
+  {
+    "id": "D04",
+    "split": "dev",
+    "type": "sequence",
+    "question": "Hãy kể theo thứ tự năm bước trong pipeline của hệ thống hỗ trợ quyết định được đề xuất.",
+    "expected_answer": "Thu thập dữ liệu, làm sạch dữ liệu, nạp dữ liệu, mô hình hóa cổ phiếu, rồi phân bổ tài sản.",
+    "gold_source_id": "arxiv-2412.05297v1",
+    "gold_page": 7,
+    "evidence_quote": [
+      "1) Data Gathering:",
+      "2) Data Cleaning:",
+      "3) Data Loading:",
+      "4) Stock Modeling:",
+      "5) Asset Allocation:"
+    ],
+    "filter": null
+  },
+  {
+    "id": "D05",
+    "split": "dev",
+    "type": "direct",
+    "question": "Ba loại báo cáo tài chính chính mà các công ty trên Tehran Stock Exchange phải công bố là gì?",
+    "expected_answer": "Bảng cân đối kế toán, báo cáo thu nhập và báo cáo lưu chuyển tiền tệ.",
+    "gold_source_id": "arxiv-2412.05297v1",
+    "gold_page": 6,
+    "evidence_quote": "The three main financial reports are the balance sheet, income statement, and statement of cash flow.",
+    "filter": null
+  },
+  {
+    "id": "D06",
+    "split": "dev",
+    "type": "direct",
+    "question": "Trong 23 đặc trưng financial ratio, hai đặc trưng nào được tác giả nêu là quan trọng nhất?",
+    "expected_answer": "Gross Profit Growth và Revenue Growth.",
+    "gold_source_id": "arxiv-2412.05297v1",
+    "gold_page": 9,
+    "evidence_quote": "Number of distinct features is 23, that two most important of them are Gross Profit Growth and Revenue Growth",
+    "filter": null
+  },
+  {
+    "id": "D07",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Ngoài các tỷ số tài chính, hệ thống bổ sung những thông tin nào để phản ánh loại hình cổ phiếu/công ty?",
+    "expected_answer": "Ngành của cổ phiếu và việc công ty có phải là doanh nghiệp sản xuất hay không.",
+    "gold_source_id": "arxiv-2412.05297v1",
+    "gold_page": 10,
+    "evidence_quote": "Two main stock type features are the stock industry and whether the stock is a production company or not.",
+    "filter": null
+  },
+  {
+    "id": "D08",
+    "split": "dev",
+    "type": "direct",
+    "question": "Nêu một biến vĩ mô liên quan đến tỷ giá mà bài báo đưa vào tập đặc trưng.",
+    "expected_answer": "Tỷ giá USD/IRR hoặc mức sinh lời của tỷ giá USD/IRR.",
+    "gold_source_id": "arxiv-2412.05297v1",
+    "gold_page": 11,
+    "evidence_quote": "USD/IRR Exchange Rate Return The USD/IRR last month return",
+    "filter": null
+  },
+  {
+    "id": "D09",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Chỉ tra cứu tài liệu có metadata year=2024. Hệ thống khuyến nghị mua cổ phiếu trong trường hợp nào so với fixed-income ETF?",
+    "expected_answer": "Khi lợi suất ước tính của cổ phiếu cao hơn fixed-income ETF; nếu không thì nên đầu tư vào thị trường rủi ro thấp.",
+    "gold_source_id": "arxiv-2412.05297v1",
+    "gold_page": 12,
+    "evidence_quote": "the system recommends buying the stock. Otherwise, it is better to invest in low-risk markets.",
+    "filter": {"year": 2024}
+  },
+  {
+    "id": "D10",
+    "split": "dev",
+    "type": "direct",
+    "question": "Mạng neural của bài báo về Tehran Stock Exchange có cấu hình huấn luyện chính nào?",
+    "expected_answer": "Một hidden layer với 100 neuron, Adam, binary cross entropy, batch size 32 và 50 epochs.",
+    "gold_source_id": "arxiv-2412.05297v1",
+    "gold_page": 13,
+    "evidence_quote": [
+      "The artificial neural network contains one hidden layer with 100 neurons.",
+      "The Adam opti- mizer selected as the optimization method",
+      "binary cross entropy for the loss function.",
+      "The batch size parameter is set to 32, and the model is trained in 50 epochs."
+    ],
+    "filter": null
+  },
+  {
+    "id": "D11",
+    "split": "dev",
+    "type": "multi_fact",
+    "question": "Chiến lược giao dịch hybrid kết hợp những nhóm tín hiệu hoặc mô-đun nào?",
+    "expected_answer": "EMA/MACD cho trend-following và momentum; RSI/Bollinger Bands cho mean reversion; FinBERT phân tích sentiment; XGBoost dự đoán; và lọc theo market regime.",
+    "gold_source_id": "arxiv-2601.19504v1",
+    "gold_page": 1,
+    "evidence_quote": [
+      "trend-following and directional momentum capture via EMA and MACD,",
+      "detection of price normalization through mean-reversion using RSI and Bollinger Bands,",
+      "sentiment analysis using FinBERT,",
+      "signal generation through machine learning using XGBoost",
+      "market regime filtering based on volatility and return environments."
+    ],
+    "filter": null
+  },
+  {
+    "id": "D12",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Chỉ tra cứu tài liệu có metadata year=2026. Khi sentiment score xuống ngưỡng nào thì hệ thống tạm dừng hoặc thoát giao dịch?",
+    "expected_answer": "Khi sentiment score thấp hơn ngưỡng -0.70.",
+    "gold_source_id": "arxiv-2601.19504v1",
+    "gold_page": 6,
+    "evidence_quote": "Trades are suspended or exited if sentiment breach a threshold of -0.70",
+    "filter": {"year": 2026}
+  },
+  {
+    "id": "D13",
+    "split": "dev",
+    "type": "direct",
+    "question": "XGBoost classifier của chiến lược hybrid dự đoán điều gì và gán nhãn nhị phân ra sao?",
+    "expected_answer": "Dự đoán chiều lợi suất ngày kế tiếp; nhãn 1 nếu lợi suất ngày kế tiếp lớn hơn 0, ngược lại là 0.",
+    "gold_source_id": "arxiv-2601.19504v1",
+    "gold_page": 6,
+    "evidence_quote": "The primary predictive model is set as an XGBoost classifier that is fitted to predict the next-day return direction. The labels are simply binary, 1 if next-day return>0, 0 otherwise.",
+    "filter": null
+  },
+  {
+    "id": "D14",
+    "split": "dev",
+    "type": "conditional",
+    "question": "Bài báo gán nhãn bullish hay bearish cho market regime dựa trên dấu của đại lượng nào?",
+    "expected_answer": "Dựa trên SMA 20 ngày của phần trăm thay đổi giá: giá trị dương là bullish (1), nếu không thì bearish (-1).",
+    "gold_source_id": "arxiv-2601.19504v1",
+    "gold_page": 7,
+    "evidence_quote": "If the output is positive, the regime gets a bullish (1) label, otherwise bearish (-1).",
+    "filter": null
+  },
+  {
+    "id": "D15",
+    "split": "dev",
+    "type": "direct",
+    "question": "Hạ tầng cloud và lịch chạy tự động cho giao dịch live được mô tả như thế nào?",
+    "expected_answer": "Chạy trên AWS EC2 t2.medium với Python, Backtrader và Alpaca API; cron job kích hoạt chiến lược mỗi ngày trước giờ mở cửa thị trường.",
+    "gold_source_id": "arxiv-2601.19504v1",
+    "gold_page": 8,
+    "evidence_quote": "the setup is deployed on an AWS EC2 instance (t2.medium) running Python, Backtrader, and the Alpaca API. A cron job automatically triggers the strategy execution daily prior to the market open.",
+    "filter": null
+  },
+  {
+    "id": "F01",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Chỉ tra cứu tài liệu có metadata year=2026. Những nhóm dữ liệu có cấu trúc và phi cấu trúc nào được nêu cho AI trading engine?",
+    "expected_answer": "Dữ liệu có cấu trúc gồm giá, khối lượng, biến động và chỉ báo kỹ thuật; dữ liệu phi cấu trúc gồm tin tài chính, mạng xã hội và transcript cuộc gọi báo cáo thu nhập.",
+    "gold_source_id": "arxiv-2601.19504v1",
+    "gold_page": 2,
+    "evidence_quote": "An AI engine may utilize multiple streams of data, both organized, such as prices, volume, volatility, and technical indicators, as well as disorganized like financial news, social media feeds, earnings call transcripts, and social media.",
+    "filter": {"year": 2026}
+  },
+  {
+    "id": "F02",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "FinBERT được mô tả là nắm bắt được những sắc thái ngôn ngữ tài chính nào nhờ fine-tuning trên corpus chuyên ngành?",
+    "expected_answer": "Phủ định, cách diễn đạt dè dặt/hedging và thuật ngữ chuyên ngành.",
+    "gold_source_id": "arxiv-2601.19504v1",
+    "gold_page": 4,
+    "evidence_quote": "Domain-specific corpus finetuning allows the model to grasp subtleties such as negation, hedging, and jargon.",
+    "filter": null
+  },
+  {
+    "id": "F03",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Chỉ tra cứu tài liệu có metadata year=2026. Phần System Overview mô tả kiến trúc có bao nhiêu module?",
+    "expected_answer": "Tám module.",
+    "gold_source_id": "arxiv-2601.19504v1",
+    "gold_page": 5,
+    "evidence_quote": "The system consists of a canonical architecture of eight em- bedded modules:",
+    "filter": {"year": 2026}
+  },
+  {
+    "id": "F04",
+    "split": "test",
+    "type": "direct",
+    "question": "Trong phần future work, tác giả nêu những nền tảng mạng xã hội nào để mở rộng dữ liệu sentiment?",
+    "expected_answer": "Twitter, Reddit, StockTwits và YouTube.",
+    "gold_source_id": "arxiv-2601.19504v1",
+    "gold_page": 10,
+    "evidence_quote": "social media websites including Twitter, Reddit, StockTwits and YouTube",
+    "filter": null
+  },
+  {
+    "id": "F05",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Chỉ tra cứu tài liệu có metadata year=2024. Technical analysis trong bài báo thường dùng dữ liệu giá/khối lượng nào và nêu những ví dụ chỉ báo nào?",
+    "expected_answer": "Dữ liệu OHLC và khối lượng giao dịch; ví dụ chỉ báo SMA, WMA, RSI và MACD.",
+    "gold_source_id": "arxiv-2412.05297v1",
+    "gold_page": 5,
+    "evidence_quote": [
+      "stock price prediction is done using OHLC price data along with the volume of trades [30, 24].",
+      "technical indicators such as SMA, WMA, RSI, MACD, and others [34, 29, 28]."
+    ],
+    "filter": {"year": 2024}
+  }
+]

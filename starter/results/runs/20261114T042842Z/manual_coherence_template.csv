@@ -1,0 +1,1045 @@
+﻿sample_id,source_id,page,position_rule,target_excerpt,strategy,chunk_id,chunk_text,target_excerpt_found,score_0_to_2,rationale
+coh-01,arxiv-2412.05297v1,2,120 characters centered on the page midpoint; selected before comparing strategies,"edicting stock future prices and allocating assets in
+major financial markets: stock, bond, and commodity. The most nota",A_fixed,arxiv-2412.05297v1:2:4a26b6ff0c84d6a13ecd505f,"1 Abstract
+Financial markets are integral to a country’s economic success, yet their com-
+plex nature raises challenging issues for predicting their behaviors. There is a
+growing demand for an integrated system that explores the vast and diverse data
+in financial reports with powerful machine-learning models to analyze financial
+markets and suggest appropriate investment strategies. This research provides
+an end-to-end decision support system (DSS) that pervasively covers the stages
+of",false,,Not selected as representative for this sample/strategy.
+coh-01,arxiv-2412.05297v1,2,120 characters centered on the page midpoint; selected before comparing strategies,"edicting stock future prices and allocating assets in
+major financial markets: stock, bond, and commodity. The most nota",A_fixed,arxiv-2412.05297v1:2:f15a23b524f9652837ca20cf,"system (DSS) that pervasively covers the stages
+of gathering, cleaning, and modeling the stock’s financial and fundamental data
+alongside the country’s macroeconomic conditions. Analyzing and modeling the
+fundamental data of securities is a noteworthy method that, despite its greater
+power, has been used by fewer researchers due to its more complex and challeng-
+ing issues. By precisely analyzing securities’ fundamental data, the proposed
+system assists investors in predicting stock future",false,,Not selected as representative for this sample/strategy.
+coh-01,arxiv-2412.05297v1,2,120 characters centered on the page midpoint; selected before comparing strategies,"edicting stock future prices and allocating assets in
+major financial markets: stock, bond, and commodity. The most nota",A_fixed,arxiv-2412.05297v1:2:fd84721401bc4ef79b1d6f19,"ystem assists investors in predicting stock future prices and allocating assets in
+major financial markets: stock, bond, and commodity. The most notable contri-
+butions and innovations of this research are: (1) Developing a robust predictive
+model for mid- to long-term stock returns, tailored for investors rather than
+traders, (2) The proposed DSS considers a diverse set of features relating to the
+economic conditions of the company, including fundamental data, stock trading
+characteristics,",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but the fixed window begins or ends within surrounding context; understandable only with some context. Author checked the label; no score change was requested."
+coh-01,arxiv-2412.05297v1,2,120 characters centered on the page midpoint; selected before comparing strategies,"edicting stock future prices and allocating assets in
+major financial markets: stock, bond, and commodity. The most nota",A_fixed,arxiv-2412.05297v1:2:9f6379e413c95d717eadb072,"g fundamental data, stock trading
+characteristics, and macro-economic attributes to enhance predictive accuracy,
+(3) Evaluating the DSS performance on the Tehran Stock Exchange that has
+specific characteristics of small to medium-sized economies with high inflation
+rates and showing the superiority to novel researches, and (4) Empowering the
+DSS to generate different asset allocation strategies in various economic situa-
+tions by simulating expert investor decision-making.
+Keywords: Stock",false,,Not selected as representative for this sample/strategy.
+coh-01,arxiv-2412.05297v1,2,120 characters centered on the page midpoint; selected before comparing strategies,"edicting stock future prices and allocating assets in
+major financial markets: stock, bond, and commodity. The most nota",A_fixed,arxiv-2412.05297v1:2:2c02952dda013b08ff62e469,"g expert investor decision-making.
+Keywords: Stock Prediction, Fundamental Analysis, Decision Support Sys-
+tems, Asset Allocation, Financial Markets, Investment Strategies
+2",false,,Not selected as representative for this sample/strategy.
+coh-01,arxiv-2412.05297v1,2,120 characters centered on the page midpoint; selected before comparing strategies,"edicting stock future prices and allocating assets in
+major financial markets: stock, bond, and commodity. The most nota",B_paragraph,arxiv-2412.05297v1:2:fbd7f65b82d46bd38922815e,"1 Abstract Financial markets are integral to a country’s economic success, yet their com- plex nature raises challenging issues for predicting their behaviors. There is a growing demand for an integrated system that explores the vast and diverse data in financial reports with powerful machine-learning models to analyze financial
+
+markets and suggest appropriate investment strategies. This research provides an end-to-end decision support system (DSS) that pervasively covers the stages of gathering, cleaning, and modeling the stock’s financial and fundamental data alongside the country’s macroeconomic conditions. Analyzing and modeling the fundamental data of securities is a noteworthy method that, despite its greater",false,,Not selected as representative for this sample/strategy.
+coh-01,arxiv-2412.05297v1,2,120 characters centered on the page midpoint; selected before comparing strategies,"edicting stock future prices and allocating assets in
+major financial markets: stock, bond, and commodity. The most nota",B_paragraph,arxiv-2412.05297v1:2:675768fab465f0e865411e1c,"power, has been used by fewer researchers due to its more complex and challeng- ing issues. By precisely analyzing securities’ fundamental data, the proposed system assists investors in predicting stock future prices and allocating assets in major financial markets: stock, bond, and commodity. The most notable contri- butions and innovations of this research are: (1) Developing a robust predictive
+
+model for mid- to long-term stock returns, tailored for investors rather than traders, (2) The proposed DSS considers a diverse set of features relating to the economic conditions of the company, including fundamental data, stock trading characteristics, and macro-economic attributes to enhance predictive accuracy, (3) Evaluating the DSS performance on the Tehran Stock Exchange that has",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but neighboring context is clipped or table/diagram structure limits standalone interpretation. Author checked the label; no score change was requested."
+coh-01,arxiv-2412.05297v1,2,120 characters centered on the page midpoint; selected before comparing strategies,"edicting stock future prices and allocating assets in
+major financial markets: stock, bond, and commodity. The most nota",B_paragraph,arxiv-2412.05297v1:2:b28529c202fcc5d9ee08df81,"specific characteristics of small to medium-sized economies with high inflation rates and showing the superiority to novel researches, and (4) Empowering the DSS to generate different asset allocation strategies in various economic situa- tions by simulating expert investor decision-making.
+
+Keywords: Stock Prediction, Fundamental Analysis, Decision Support Sys- tems, Asset Allocation, Financial Markets, Investment Strategies 2",false,,Not selected as representative for this sample/strategy.
+coh-01,arxiv-2412.05297v1,2,120 characters centered on the page midpoint; selected before comparing strategies,"edicting stock future prices and allocating assets in
+major financial markets: stock, bond, and commodity. The most nota",C_paragraph_filter,arxiv-2412.05297v1:2:fbd7f65b82d46bd38922815e,"1 Abstract Financial markets are integral to a country’s economic success, yet their com- plex nature raises challenging issues for predicting their behaviors. There is a growing demand for an integrated system that explores the vast and diverse data in financial reports with powerful machine-learning models to analyze financial
+
+markets and suggest appropriate investment strategies. This research provides an end-to-end decision support system (DSS) that pervasively covers the stages of gathering, cleaning, and modeling the stock’s financial and fundamental data alongside the country’s macroeconomic conditions. Analyzing and modeling the fundamental data of securities is a noteworthy method that, despite its greater",false,,Not selected as representative for this sample/strategy.
+coh-01,arxiv-2412.05297v1,2,120 characters centered on the page midpoint; selected before comparing strategies,"edicting stock future prices and allocating assets in
+major financial markets: stock, bond, and commodity. The most nota",C_paragraph_filter,arxiv-2412.05297v1:2:675768fab465f0e865411e1c,"power, has been used by fewer researchers due to its more complex and challeng- ing issues. By precisely analyzing securities’ fundamental data, the proposed system assists investors in predicting stock future prices and allocating assets in major financial markets: stock, bond, and commodity. The most notable contri- butions and innovations of this research are: (1) Developing a robust predictive
+
+model for mid- to long-term stock returns, tailored for investors rather than traders, (2) The proposed DSS considers a diverse set of features relating to the economic conditions of the company, including fundamental data, stock trading characteristics, and macro-economic attributes to enhance predictive accuracy, (3) Evaluating the DSS performance on the Tehran Stock Exchange that has",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but neighboring context is clipped or table/diagram structure limits standalone interpretation. Author checked the label; no score change was requested."
+coh-01,arxiv-2412.05297v1,2,120 characters centered on the page midpoint; selected before comparing strategies,"edicting stock future prices and allocating assets in
+major financial markets: stock, bond, and commodity. The most nota",C_paragraph_filter,arxiv-2412.05297v1:2:b28529c202fcc5d9ee08df81,"specific characteristics of small to medium-sized economies with high inflation rates and showing the superiority to novel researches, and (4) Empowering the DSS to generate different asset allocation strategies in various economic situa- tions by simulating expert investor decision-making.
+
+Keywords: Stock Prediction, Fundamental Analysis, Decision Support Sys- tems, Asset Allocation, Financial Markets, Investment Strategies 2",false,,Not selected as representative for this sample/strategy.
+coh-02,arxiv-2412.05297v1,3,120 characters centered on the page midpoint; selected before comparing strategies," classes, market,
+and investing time [31].
+Most stock market analysts use technical data analysis as the prediction
+meth",A_fixed,arxiv-2412.05297v1:3:799fcae0896c8f3ee95b7c3e,"2 Introduction
+Stock and bond markets are two of the most important financial markets. They
+play a crucial role in funding businesses to expand their production activities
+and provide services. The studies show the essential role of financial markets in
+economic growth [27, 17]. Simultaneously, they enable individuals and investors
+to save and increase the value of their money by participating in economic ac-
+tivities [10]. Importantly, these markets protect the value of money against
+inflation",false,,Not selected as representative for this sample/strategy.
+coh-02,arxiv-2412.05297v1,3,120 characters centered on the page midpoint; selected before comparing strategies," classes, market,
+and investing time [31].
+Most stock market analysts use technical data analysis as the prediction
+meth",A_fixed,arxiv-2412.05297v1:3:0f46c6c885209aa074298ced,"rkets protect the value of money against
+inflation in the long run, ensuring a secure financial future [8, 19, 36]. Keep-
+ing commodities like gold and silver in the portfolio also has advantages for
+investors. They are effective hedges against inflation and are good options for
+diversification and lowering portfolio risk [30].
+As we know, not all businesses perform the same economically, and some
+have advantages in making profits. Moreover, in different economic situations,
+investing in any",false,,Not selected as representative for this sample/strategy.
+coh-02,arxiv-2412.05297v1,3,120 characters centered on the page midpoint; selected before comparing strategies," classes, market,
+and investing time [31].
+Most stock market analysts use technical data analysis as the prediction
+meth",A_fixed,arxiv-2412.05297v1:3:7df6f9bfa0e2e77adb4d3a98,"in different economic situations,
+investing in any financial market has risks and opportunities for investors [30].
+Therefore, the existence of a decision support system for evaluating markets’
+conditions and providing suggestions to investors can be very beneficial. Every
+investor should obtain a strategy called asset allocation. Asset allocation is the
+process of determining the percentage of capital invested in specific financial
+markets, such as stocks, bonds, commodities, and money. Asset",false,,Not selected as representative for this sample/strategy.
+coh-02,arxiv-2412.05297v1,3,120 characters centered on the page midpoint; selected before comparing strategies," classes, market,
+and investing time [31].
+Most stock market analysts use technical data analysis as the prediction
+meth",A_fixed,arxiv-2412.05297v1:3:cf43921ee8c11992ccb451c4,"ch as stocks, bonds, commodities, and money. Asset allocation and
+diversification help reduce the risk of capital loss by spreading investments across
+different assets and market sectors while also aiming to optimize returns based
+on risk tolerance. Three main aspects of diversification are asset classes, market,
+and investing time [31].
+Most stock market analysts use technical data analysis as the prediction
+method [32, 29]. Technical analysis uses candlestick and volume data to analyze
+and",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but the fixed window begins or ends within surrounding context; understandable only with some context. Author checked the label; no score change was requested."
+coh-02,arxiv-2412.05297v1,3,120 characters centered on the page midpoint; selected before comparing strategies," classes, market,
+and investing time [31].
+Most stock market analysts use technical data analysis as the prediction
+meth",A_fixed,arxiv-2412.05297v1:3:5c9381c8bfd2590eec658b69,"is uses candlestick and volume data to analyze
+and forecast the future price of stock [24]. On the other hand, fundamental
+analysis studies and investigates businesses’ financial reports and then uses these
+data to predict the stock’s future performance. Fundamental analysis has more
+challenges in extracting, analyzing, and modeling data than technical analysis;
+hence, very little research uses this method [34]. Nevertheless, the results gained
+from fundamental approaches are superior to",false,,Not selected as representative for this sample/strategy.
+coh-02,arxiv-2412.05297v1,3,120 characters centered on the page midpoint; selected before comparing strategies," classes, market,
+and investing time [31].
+Most stock market analysts use technical data analysis as the prediction
+meth",A_fixed,arxiv-2412.05297v1:3:86ced44b2e67fb10d96bcc7c,"gained
+from fundamental approaches are superior to technical ones. We will compare
+the details of technical and fundamental techniques in section 3.
+In this research, we used financial ratio data and macroeconomic features
+to build a model for stock return prediction and selecting high-potential stocks.
+This problem formulation is similar to analyses done by an expert investor in
+making the decision to buy stocks. To achieve this goal, we needed a robust
+decision support system that solves the",false,,Not selected as representative for this sample/strategy.
+coh-02,arxiv-2412.05297v1,3,120 characters centered on the page midpoint; selected before comparing strategies," classes, market,
+and investing time [31].
+Most stock market analysts use technical data analysis as the prediction
+meth",A_fixed,arxiv-2412.05297v1:3:7102f0a94b847cd32b93cefc,"d a robust
+decision support system that solves the challenges of working with unstructured
+fundamental data. Also, preparing a diverse and thorough set of features for an
+accurate presentation of the stock market and economic conditions is a manda-
+tory task that we overcame in this research. After building the stock prediction
+model, we proposed an asset allocation model as a decision-support system for
+helping investors allocate budgets in different financial markets. We included
+the bond and",false,,Not selected as representative for this sample/strategy.
+coh-02,arxiv-2412.05297v1,3,120 characters centered on the page midpoint; selected before comparing strategies," classes, market,
+and investing time [31].
+Most stock market analysts use technical data analysis as the prediction
+meth",A_fixed,arxiv-2412.05297v1:3:ccec145adc796b4116795715,"ferent financial markets. We included
+the bond and commodity markets because of their lower risk and fluctuations
+than the stock market and good sources of diversification. This work has many
+applications in stock market prediction and asset allocation for individual and
+3",false,,Not selected as representative for this sample/strategy.
+coh-02,arxiv-2412.05297v1,3,120 characters centered on the page midpoint; selected before comparing strategies," classes, market,
+and investing time [31].
+Most stock market analysts use technical data analysis as the prediction
+meth",B_paragraph,arxiv-2412.05297v1:3:f1c86324058369670a872aae,"2 Introduction Stock and bond markets are two of the most important financial markets. They play a crucial role in funding businesses to expand their production activities and provide services. The studies show the essential role of financial markets in economic growth [27, 17]. Simultaneously, they enable individuals and investors
+
+to save and increase the value of their money by participating in economic ac- tivities [10]. Importantly, these markets protect the value of money against inflation in the long run, ensuring a secure financial future [8, 19, 36]. Keep- ing commodities like gold and silver in the portfolio also has advantages for investors. They are effective hedges against inflation and are good options for
+
+diversification and lowering portfolio risk [30].",false,,Not selected as representative for this sample/strategy.
+coh-02,arxiv-2412.05297v1,3,120 characters centered on the page midpoint; selected before comparing strategies," classes, market,
+and investing time [31].
+Most stock market analysts use technical data analysis as the prediction
+meth",B_paragraph,arxiv-2412.05297v1:3:6b2f32a0cc623a66bdd63841,"As we know, not all businesses perform the same economically, and some have advantages in making profits. Moreover, in different economic situations, investing in any financial market has risks and opportunities for investors [30].
+
+Therefore, the existence of a decision support system for evaluating markets’ conditions and providing suggestions to investors can be very beneficial. Every investor should obtain a strategy called asset allocation. Asset allocation is the process of determining the percentage of capital invested in specific financial markets, such as stocks, bonds, commodities, and money. Asset allocation and",false,,Not selected as representative for this sample/strategy.
+coh-02,arxiv-2412.05297v1,3,120 characters centered on the page midpoint; selected before comparing strategies," classes, market,
+and investing time [31].
+Most stock market analysts use technical data analysis as the prediction
+meth",B_paragraph,arxiv-2412.05297v1:3:a4ecf2fa9efcac1777e7aef5,"diversification help reduce the risk of capital loss by spreading investments across different assets and market sectors while also aiming to optimize returns based on risk tolerance. Three main aspects of diversification are asset classes, market, and investing time [31].
+
+Most stock market analysts use technical data analysis as the prediction method [32, 29]. Technical analysis uses candlestick and volume data to analyze and forecast the future price of stock [24]. On the other hand, fundamental analysis studies and investigates businesses’ financial reports and then uses these data to predict the stock’s future performance. Fundamental analysis has more",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but neighboring context is clipped or table/diagram structure limits standalone interpretation. Author checked the label; no score change was requested."
+coh-02,arxiv-2412.05297v1,3,120 characters centered on the page midpoint; selected before comparing strategies," classes, market,
+and investing time [31].
+Most stock market analysts use technical data analysis as the prediction
+meth",B_paragraph,arxiv-2412.05297v1:3:d7f6671e9b44beb5b386a535,"challenges in extracting, analyzing, and modeling data than technical analysis; hence, very little research uses this method [34]. Nevertheless, the results gained from fundamental approaches are superior to technical ones. We will compare the details of technical and fundamental techniques in section 3.
+
+In this research, we used financial ratio data and macroeconomic features to build a model for stock return prediction and selecting high-potential stocks.",false,,Not selected as representative for this sample/strategy.
+coh-02,arxiv-2412.05297v1,3,120 characters centered on the page midpoint; selected before comparing strategies," classes, market,
+and investing time [31].
+Most stock market analysts use technical data analysis as the prediction
+meth",B_paragraph,arxiv-2412.05297v1:3:be16e675215fce82bcd46a69,"This problem formulation is similar to analyses done by an expert investor in making the decision to buy stocks. To achieve this goal, we needed a robust decision support system that solves the challenges of working with unstructured fundamental data. Also, preparing a diverse and thorough set of features for an accurate presentation of the stock market and economic conditions is a manda-
+
+tory task that we overcame in this research. After building the stock prediction model, we proposed an asset allocation model as a decision-support system for helping investors allocate budgets in different financial markets. We included the bond and commodity markets because of their lower risk and fluctuations than the stock market and good sources of diversification. This work has many",false,,Not selected as representative for this sample/strategy.
+coh-02,arxiv-2412.05297v1,3,120 characters centered on the page midpoint; selected before comparing strategies," classes, market,
+and investing time [31].
+Most stock market analysts use technical data analysis as the prediction
+meth",B_paragraph,arxiv-2412.05297v1:3:60deffea2b433fd214685547,applications in stock market prediction and asset allocation for individual and 3,false,,Not selected as representative for this sample/strategy.
+coh-02,arxiv-2412.05297v1,3,120 characters centered on the page midpoint; selected before comparing strategies," classes, market,
+and investing time [31].
+Most stock market analysts use technical data analysis as the prediction
+meth",C_paragraph_filter,arxiv-2412.05297v1:3:f1c86324058369670a872aae,"2 Introduction Stock and bond markets are two of the most important financial markets. They play a crucial role in funding businesses to expand their production activities and provide services. The studies show the essential role of financial markets in economic growth [27, 17]. Simultaneously, they enable individuals and investors
+
+to save and increase the value of their money by participating in economic ac- tivities [10]. Importantly, these markets protect the value of money against inflation in the long run, ensuring a secure financial future [8, 19, 36]. Keep- ing commodities like gold and silver in the portfolio also has advantages for investors. They are effective hedges against inflation and are good options for
+
+diversification and lowering portfolio risk [30].",false,,Not selected as representative for this sample/strategy.
+coh-02,arxiv-2412.05297v1,3,120 characters centered on the page midpoint; selected before comparing strategies," classes, market,
+and investing time [31].
+Most stock market analysts use technical data analysis as the prediction
+meth",C_paragraph_filter,arxiv-2412.05297v1:3:6b2f32a0cc623a66bdd63841,"As we know, not all businesses perform the same economically, and some have advantages in making profits. Moreover, in different economic situations, investing in any financial market has risks and opportunities for investors [30].
+
+Therefore, the existence of a decision support system for evaluating markets’ conditions and providing suggestions to investors can be very beneficial. Every investor should obtain a strategy called asset allocation. Asset allocation is the process of determining the percentage of capital invested in specific financial markets, such as stocks, bonds, commodities, and money. Asset allocation and",false,,Not selected as representative for this sample/strategy.
+coh-02,arxiv-2412.05297v1,3,120 characters centered on the page midpoint; selected before comparing strategies," classes, market,
+and investing time [31].
+Most stock market analysts use technical data analysis as the prediction
+meth",C_paragraph_filter,arxiv-2412.05297v1:3:a4ecf2fa9efcac1777e7aef5,"diversification help reduce the risk of capital loss by spreading investments across different assets and market sectors while also aiming to optimize returns based on risk tolerance. Three main aspects of diversification are asset classes, market, and investing time [31].
+
+Most stock market analysts use technical data analysis as the prediction method [32, 29]. Technical analysis uses candlestick and volume data to analyze and forecast the future price of stock [24]. On the other hand, fundamental analysis studies and investigates businesses’ financial reports and then uses these data to predict the stock’s future performance. Fundamental analysis has more",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but neighboring context is clipped or table/diagram structure limits standalone interpretation. Author checked the label; no score change was requested."
+coh-02,arxiv-2412.05297v1,3,120 characters centered on the page midpoint; selected before comparing strategies," classes, market,
+and investing time [31].
+Most stock market analysts use technical data analysis as the prediction
+meth",C_paragraph_filter,arxiv-2412.05297v1:3:d7f6671e9b44beb5b386a535,"challenges in extracting, analyzing, and modeling data than technical analysis; hence, very little research uses this method [34]. Nevertheless, the results gained from fundamental approaches are superior to technical ones. We will compare the details of technical and fundamental techniques in section 3.
+
+In this research, we used financial ratio data and macroeconomic features to build a model for stock return prediction and selecting high-potential stocks.",false,,Not selected as representative for this sample/strategy.
+coh-02,arxiv-2412.05297v1,3,120 characters centered on the page midpoint; selected before comparing strategies," classes, market,
+and investing time [31].
+Most stock market analysts use technical data analysis as the prediction
+meth",C_paragraph_filter,arxiv-2412.05297v1:3:be16e675215fce82bcd46a69,"This problem formulation is similar to analyses done by an expert investor in making the decision to buy stocks. To achieve this goal, we needed a robust decision support system that solves the challenges of working with unstructured fundamental data. Also, preparing a diverse and thorough set of features for an accurate presentation of the stock market and economic conditions is a manda-
+
+tory task that we overcame in this research. After building the stock prediction model, we proposed an asset allocation model as a decision-support system for helping investors allocate budgets in different financial markets. We included the bond and commodity markets because of their lower risk and fluctuations than the stock market and good sources of diversification. This work has many",false,,Not selected as representative for this sample/strategy.
+coh-02,arxiv-2412.05297v1,3,120 characters centered on the page midpoint; selected before comparing strategies," classes, market,
+and investing time [31].
+Most stock market analysts use technical data analysis as the prediction
+meth",C_paragraph_filter,arxiv-2412.05297v1:3:60deffea2b433fd214685547,applications in stock market prediction and asset allocation for individual and 3,false,,Not selected as representative for this sample/strategy.
+coh-03,arxiv-2412.05297v1,4,120 characters centered on the page midpoint; selected before comparing strategies,"s.
+In recent years, with huge advancements in machine learning and deep learn-
+ing, much attention has been attracted to",A_fixed,arxiv-2412.05297v1:4:01aed6459bdd5cd8e20b7902,"institutional investors.
+The rest of this paper is organized as follows: In section 3, we review the
+related works about stock market prediction approaches and financial decision
+support systems. In section 4, we describe the proposed decision support system
+architecture for end-to-end processes of data collection, data cleaning, and model
+training of the problem. In section 5 we demonstrate the used feature list
+with their importance for solving the problem. Also this section formulates
+the",false,,Not selected as representative for this sample/strategy.
+coh-03,arxiv-2412.05297v1,4,120 characters centered on the page midpoint; selected before comparing strategies,"s.
+In recent years, with huge advancements in machine learning and deep learn-
+ing, much attention has been attracted to",A_fixed,arxiv-2412.05297v1:4:8ba52ecb9c12f0ba691cd0f3,"ving the problem. Also this section formulates
+the problem and presents the proposed model for predicting stock return, and
+compares it to selected novel baselines. In section 6, we show the applications
+of the model for predicting the future trend of the stock market and propose
+some strategies for asset allocation in financial markets. Finally, we conclude
+the paper in Section 7 and describe future works.
+3 Literature review
+3.1 Stock market prediction
+Financial markets are marketplaces where",false,,Not selected as representative for this sample/strategy.
+coh-03,arxiv-2412.05297v1,4,120 characters centered on the page midpoint; selected before comparing strategies,"s.
+In recent years, with huge advancements in machine learning and deep learn-
+ing, much attention has been attracted to",A_fixed,arxiv-2412.05297v1:4:eea589d041487cbdb0a9269b,"rediction
+Financial markets are marketplaces where investors can participate in economic
+activities. One of the most important financial markets is the stock market, that
+many disciplines are created, and many researches are conducted to study and
+explore its underlying behaviors [29]. Some of its seminal researches are Fama’s
+“Efficient Capital Markets” [16], Graham’s “Security Analysis” [18], Ball’s “An
+empirical evaluation of accounting income numbers” [4], and many others.
+In recent years,",false,,Not selected as representative for this sample/strategy.
+coh-03,arxiv-2412.05297v1,4,120 characters centered on the page midpoint; selected before comparing strategies,"s.
+In recent years, with huge advancements in machine learning and deep learn-
+ing, much attention has been attracted to",A_fixed,arxiv-2412.05297v1:4:3ed46e44d03b466d8c3fa0d0,"me numbers” [4], and many others.
+In recent years, with huge advancements in machine learning and deep learn-
+ing, much attention has been attracted to predicting the stock market future
+with advanced techniques [48, 40]. Some research papers predicted the stock
+market index [7, 42] and many others predicted the stock’s future price [22, 5].
+In this manner, different solutions are proposed that use a broad range of fea-
+tures for prediction. The study of Kumbure et al. [24] showed that, in",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but the fixed window begins or ends within surrounding context; understandable only with some context. Author checked the label; no score change was requested."
+coh-03,arxiv-2412.05297v1,4,120 characters centered on the page midpoint; selected before comparing strategies,"s.
+In recent years, with huge advancements in machine learning and deep learn-
+ing, much attention has been attracted to",A_fixed,arxiv-2412.05297v1:4:74dd108f64b4158ab4a45b7b,". The study of Kumbure et al. [24] showed that, in general,
+the number of distinct features is about 2173, and it falls into three main cat-
+egories: technical indicators, macroeconomic variables, and fundamental indi-
+cators. These studies cover a broad range of countries with specific economic
+behaviors and sizes, spanning different countries in Asia [44, 38, 33], North
+America [11, 47, 49], South America [12], and Europe [5, 43].
+3.2 Decision support systems in financial markets
+Decision",false,,Not selected as representative for this sample/strategy.
+coh-03,arxiv-2412.05297v1,4,120 characters centered on the page midpoint; selected before comparing strategies,"s.
+In recent years, with huge advancements in machine learning and deep learn-
+ing, much attention has been attracted to",A_fixed,arxiv-2412.05297v1:4:a6435995476ccca7a371898e,"sion support systems in financial markets
+Decision support systems (DSS) play an essential role in helping individuals
+make decisions by collecting, processing, and analyzing data. Applications of
+DSSs cover a broad range of fields, including agriculture, education, healthcare,
+etc [15]. One of the most important applications of DSS is in finance, which
+became more popular in recent years [13, 26, 9].
+Kou proposed a system based on quantitative and qualitative data for de-
+ciding between buy,",false,,Not selected as representative for this sample/strategy.
+coh-03,arxiv-2412.05297v1,4,120 characters centered on the page midpoint; selected before comparing strategies,"s.
+In recent years, with huge advancements in machine learning and deep learn-
+ing, much attention has been attracted to",A_fixed,arxiv-2412.05297v1:4:69a1e8faf5297abb0ab22a62,"e and qualitative data for de-
+ciding between buy, keep, or sell options. The quantitative data includes past
+stock trades data, and qualitative data is gathered from expert traders of the
+4",false,,Not selected as representative for this sample/strategy.
+coh-03,arxiv-2412.05297v1,4,120 characters centered on the page midpoint; selected before comparing strategies,"s.
+In recent years, with huge advancements in machine learning and deep learn-
+ing, much attention has been attracted to",B_paragraph,arxiv-2412.05297v1:4:c20361909476d56f4e6a6f86,"institutional investors.
+
+The rest of this paper is organized as follows: In section 3, we review the related works about stock market prediction approaches and financial decision support systems. In section 4, we describe the proposed decision support system architecture for end-to-end processes of data collection, data cleaning, and model training of the problem. In section 5 we demonstrate the used feature list
+
+with their importance for solving the problem. Also this section formulates the problem and presents the proposed model for predicting stock return, and compares it to selected novel baselines. In section 6, we show the applications of the model for predicting the future trend of the stock market and propose some strategies for asset allocation in financial markets. Finally, we conclude",false,,Not selected as representative for this sample/strategy.
+coh-03,arxiv-2412.05297v1,4,120 characters centered on the page midpoint; selected before comparing strategies,"s.
+In recent years, with huge advancements in machine learning and deep learn-
+ing, much attention has been attracted to",B_paragraph,arxiv-2412.05297v1:4:9c3d12e883c30a7b21661833,"the paper in Section 7 and describe future works.
+
+3 Literature review
+
+3.1 Stock market prediction Financial markets are marketplaces where investors can participate in economic activities. One of the most important financial markets is the stock market, that many disciplines are created, and many researches are conducted to study and explore its underlying behaviors [29]. Some of its seminal researches are Fama’s
+
+“Efficient Capital Markets” [16], Graham’s “Security Analysis” [18], Ball’s “An empirical evaluation of accounting income numbers” [4], and many others.",false,,Not selected as representative for this sample/strategy.
+coh-03,arxiv-2412.05297v1,4,120 characters centered on the page midpoint; selected before comparing strategies,"s.
+In recent years, with huge advancements in machine learning and deep learn-
+ing, much attention has been attracted to",B_paragraph,arxiv-2412.05297v1:4:49524696f4418ea5ab253a25,"In recent years, with huge advancements in machine learning and deep learn- ing, much attention has been attracted to predicting the stock market future with advanced techniques [48, 40]. Some research papers predicted the stock market index [7, 42] and many others predicted the stock’s future price [22, 5].
+
+In this manner, different solutions are proposed that use a broad range of fea- tures for prediction. The study of Kumbure et al. [24] showed that, in general, the number of distinct features is about 2173, and it falls into three main cat- egories: technical indicators, macroeconomic variables, and fundamental indi- cators. These studies cover a broad range of countries with specific economic
+
+behaviors and sizes, spanning different countries in Asia [44, 38, 33], North America [11, 47, 49], South America [12], and Europe [5, 43].",true,2,AI-assisted provisional coherence judgment: The paragraph-aware chunk preserves a complete explanatory sentence or paragraph around the sampled location. Author checked the label; no score change was requested.
+coh-03,arxiv-2412.05297v1,4,120 characters centered on the page midpoint; selected before comparing strategies,"s.
+In recent years, with huge advancements in machine learning and deep learn-
+ing, much attention has been attracted to",B_paragraph,arxiv-2412.05297v1:4:d4c8023adc785ca6ef51b17d,"3.2 Decision support systems in financial markets Decision support systems (DSS) play an essential role in helping individuals make decisions by collecting, processing, and analyzing data. Applications of DSSs cover a broad range of fields, including agriculture, education, healthcare, etc [15]. One of the most important applications of DSS is in finance, which
+
+became more popular in recent years [13, 26, 9].
+
+Kou proposed a system based on quantitative and qualitative data for de- ciding between buy, keep, or sell options. The quantitative data includes past stock trades data, and qualitative data is gathered from expert traders of the 4",false,,Not selected as representative for this sample/strategy.
+coh-03,arxiv-2412.05297v1,4,120 characters centered on the page midpoint; selected before comparing strategies,"s.
+In recent years, with huge advancements in machine learning and deep learn-
+ing, much attention has been attracted to",C_paragraph_filter,arxiv-2412.05297v1:4:c20361909476d56f4e6a6f86,"institutional investors.
+
+The rest of this paper is organized as follows: In section 3, we review the related works about stock market prediction approaches and financial decision support systems. In section 4, we describe the proposed decision support system architecture for end-to-end processes of data collection, data cleaning, and model training of the problem. In section 5 we demonstrate the used feature list
+
+with their importance for solving the problem. Also this section formulates the problem and presents the proposed model for predicting stock return, and compares it to selected novel baselines. In section 6, we show the applications of the model for predicting the future trend of the stock market and propose some strategies for asset allocation in financial markets. Finally, we conclude",false,,Not selected as representative for this sample/strategy.
+coh-03,arxiv-2412.05297v1,4,120 characters centered on the page midpoint; selected before comparing strategies,"s.
+In recent years, with huge advancements in machine learning and deep learn-
+ing, much attention has been attracted to",C_paragraph_filter,arxiv-2412.05297v1:4:9c3d12e883c30a7b21661833,"the paper in Section 7 and describe future works.
+
+3 Literature review
+
+3.1 Stock market prediction Financial markets are marketplaces where investors can participate in economic activities. One of the most important financial markets is the stock market, that many disciplines are created, and many researches are conducted to study and explore its underlying behaviors [29]. Some of its seminal researches are Fama’s
+
+“Efficient Capital Markets” [16], Graham’s “Security Analysis” [18], Ball’s “An empirical evaluation of accounting income numbers” [4], and many others.",false,,Not selected as representative for this sample/strategy.
+coh-03,arxiv-2412.05297v1,4,120 characters centered on the page midpoint; selected before comparing strategies,"s.
+In recent years, with huge advancements in machine learning and deep learn-
+ing, much attention has been attracted to",C_paragraph_filter,arxiv-2412.05297v1:4:49524696f4418ea5ab253a25,"In recent years, with huge advancements in machine learning and deep learn- ing, much attention has been attracted to predicting the stock market future with advanced techniques [48, 40]. Some research papers predicted the stock market index [7, 42] and many others predicted the stock’s future price [22, 5].
+
+In this manner, different solutions are proposed that use a broad range of fea- tures for prediction. The study of Kumbure et al. [24] showed that, in general, the number of distinct features is about 2173, and it falls into three main cat- egories: technical indicators, macroeconomic variables, and fundamental indi- cators. These studies cover a broad range of countries with specific economic
+
+behaviors and sizes, spanning different countries in Asia [44, 38, 33], North America [11, 47, 49], South America [12], and Europe [5, 43].",true,2,AI-assisted provisional coherence judgment: The paragraph-aware chunk preserves a complete explanatory sentence or paragraph around the sampled location. Author checked the label; no score change was requested.
+coh-03,arxiv-2412.05297v1,4,120 characters centered on the page midpoint; selected before comparing strategies,"s.
+In recent years, with huge advancements in machine learning and deep learn-
+ing, much attention has been attracted to",C_paragraph_filter,arxiv-2412.05297v1:4:d4c8023adc785ca6ef51b17d,"3.2 Decision support systems in financial markets Decision support systems (DSS) play an essential role in helping individuals make decisions by collecting, processing, and analyzing data. Applications of DSSs cover a broad range of fields, including agriculture, education, healthcare, etc [15]. One of the most important applications of DSS is in finance, which
+
+became more popular in recent years [13, 26, 9].
+
+Kou proposed a system based on quantitative and qualitative data for de- ciding between buy, keep, or sell options. The quantitative data includes past stock trades data, and qualitative data is gathered from expert traders of the 4",false,,Not selected as representative for this sample/strategy.
+coh-04,arxiv-2412.05297v1,5,120 characters centered on the page midpoint; selected before comparing strategies,"y with spe-
+cific characteristics. They utilized three technical indicators (SMA, MACD, and
+RSI) and price data for pred",A_fixed,arxiv-2412.05297v1:5:b9545bc7cc2dcbb74c80390f,"stock market [25]. Solares et al. architectured a DSS comprised of three main
+parts: Price forecasting, stock selection, and portfolio optimization subsystems.
+The price forecasting model is based on fundamental analysis, and the formed
+portfolio is optimized by investor risk [41]. Cho designed a DSS that provides
+multi-level and interactive capabilities for investors to predict market index and
+stock returns [10].
+3.3 Technical analysis
+As we mentioned, a line of research is based on technical",false,,Not selected as representative for this sample/strategy.
+coh-04,arxiv-2412.05297v1,5,120 characters centered on the page midpoint; selected before comparing strategies,"y with spe-
+cific characteristics. They utilized three technical indicators (SMA, MACD, and
+RSI) and price data for pred",A_fixed,arxiv-2412.05297v1:5:c8d2d6d9f2930c5d28489239,"entioned, a line of research is based on technical analysis of stock prices.
+With this approach, stock price prediction is done using OHLC price data along
+with the volume of trades [30, 24]. Some previous works used only raw data
+from price time series, but most technical analysis researches also used technical
+indicators such as SMA, WMA, RSI, MACD, and others [34, 29, 28]. In this
+manner, the selected features (price data with calculated technical indicators)
+are used with a machine learning",false,,Not selected as representative for this sample/strategy.
+coh-04,arxiv-2412.05297v1,5,120 characters centered on the page midpoint; selected before comparing strategies,"y with spe-
+cific characteristics. They utilized three technical indicators (SMA, MACD, and
+RSI) and price data for pred",A_fixed,arxiv-2412.05297v1:5:125c987fd7a336621561dbaa,"nical indicators)
+are used with a machine learning method for future return prediction. The most
+used methods are deep Learning, SVM, and Decision Tree [28, 35, 34].
+Albahli et al. [2] used 18 technical indicators alongside OHLC and stock vol-
+ume data for future stock price prediction. The adopted deep learning method
+is based on Dense Convolutional Network architecture (DenseNet), which is
+optimized for stock price prediction on short and long-term horizons. Phuoc
+et al. [38] studied the",false,,Not selected as representative for this sample/strategy.
+coh-04,arxiv-2412.05297v1,5,120 characters centered on the page midpoint; selected before comparing strategies,"y with spe-
+cific characteristics. They utilized three technical indicators (SMA, MACD, and
+RSI) and price data for pred",A_fixed,arxiv-2412.05297v1:5:9a2c795a22b610d53e99f826,"long-term horizons. Phuoc
+et al. [38] studied the Vietnam stock market, an emerging economy with spe-
+cific characteristics. They utilized three technical indicators (SMA, MACD, and
+RSI) and price data for predicting stock price trends and showed that the LSTM
+model has high accuracy for this task.
+Li and Bastos [28] provided an extensive review of research papers that
+adopted deep learning and technical data analysis for predicting stock prices.
+The study showed that the LSTM model is the",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but the fixed window begins or ends within surrounding context; understandable only with some context. Author checked the label; no score change was requested."
+coh-04,arxiv-2412.05297v1,5,120 characters centered on the page midpoint; selected before comparing strategies,"y with spe-
+cific characteristics. They utilized three technical indicators (SMA, MACD, and
+RSI) and price data for pred",A_fixed,arxiv-2412.05297v1:5:3fd823098f4368ae6b5219eb,"rices.
+The study showed that the LSTM model is the most used approach and that
+deep learning is dominant in predicting stock prices.
+3.4 Fundamental analysis
+From another point of view, fundamental analysts say that past prices are insuf-
+ficient for predicting future stock returns, and the underlying business perfor-
+mance should be considered and analyzed to assess stock performance accurately
+[30, 18]. So, the stock selection process will be done using business financial re-
+ports, including",false,,Not selected as representative for this sample/strategy.
+coh-04,arxiv-2412.05297v1,5,120 characters centered on the page midpoint; selected before comparing strategies,"y with spe-
+cific characteristics. They utilized three technical indicators (SMA, MACD, and
+RSI) and price data for pred",A_fixed,arxiv-2412.05297v1:5:e863a939863ef0aee2460d5e,"done using business financial re-
+ports, including balance sheets, income statements, and statements of cash flow
+reports [34, 44].
+Financial ratios play an important role in fundamental analysis. These
+formulas quantify a stock’s business performance, making comparing different
+stocks feasible. Arkan et al. [3] proposed a method that used 12 financial ratios
+to predict stock prices for 15 companies in the Kuwait stock market. The re-
+sult was that ROA, ROE, and net profit ratio are the most",false,,Not selected as representative for this sample/strategy.
+coh-04,arxiv-2412.05297v1,5,120 characters centered on the page midpoint; selected before comparing strategies,"y with spe-
+cific characteristics. They utilized three technical indicators (SMA, MACD, and
+RSI) and price data for pred",A_fixed,arxiv-2412.05297v1:5:f5d32fb1d460192c83a448fa,"s that ROA, ROE, and net profit ratio are the most important features
+for predicting stock price. The three studied sectors were industrial, services,
+and investment sector types. Nakayama et al. [1] proposed an approach that
+predicts the one-month stock return for the Japanese stock market using deep
+5",false,,Not selected as representative for this sample/strategy.
+coh-04,arxiv-2412.05297v1,5,120 characters centered on the page midpoint; selected before comparing strategies,"y with spe-
+cific characteristics. They utilized three technical indicators (SMA, MACD, and
+RSI) and price data for pred",B_paragraph,arxiv-2412.05297v1:5:76c0034655379e08e7eb8585,"stock market [25]. Solares et al. architectured a DSS comprised of three main parts: Price forecasting, stock selection, and portfolio optimization subsystems.
+
+The price forecasting model is based on fundamental analysis, and the formed portfolio is optimized by investor risk [41]. Cho designed a DSS that provides multi-level and interactive capabilities for investors to predict market index and stock returns [10].
+
+3.3 Technical analysis As we mentioned, a line of research is based on technical analysis of stock prices.",false,,Not selected as representative for this sample/strategy.
+coh-04,arxiv-2412.05297v1,5,120 characters centered on the page midpoint; selected before comparing strategies,"y with spe-
+cific characteristics. They utilized three technical indicators (SMA, MACD, and
+RSI) and price data for pred",B_paragraph,arxiv-2412.05297v1:5:bd40d324c63f2e704fcd72c1,"With this approach, stock price prediction is done using OHLC price data along with the volume of trades [30, 24]. Some previous works used only raw data from price time series, but most technical analysis researches also used technical indicators such as SMA, WMA, RSI, MACD, and others [34, 29, 28]. In this manner, the selected features (price data with calculated technical indicators)
+
+are used with a machine learning method for future return prediction. The most used methods are deep Learning, SVM, and Decision Tree [28, 35, 34].",false,,Not selected as representative for this sample/strategy.
+coh-04,arxiv-2412.05297v1,5,120 characters centered on the page midpoint; selected before comparing strategies,"y with spe-
+cific characteristics. They utilized three technical indicators (SMA, MACD, and
+RSI) and price data for pred",B_paragraph,arxiv-2412.05297v1:5:593c6776341b444837f854b9,"Albahli et al. [2] used 18 technical indicators alongside OHLC and stock vol- ume data for future stock price prediction. The adopted deep learning method is based on Dense Convolutional Network architecture (DenseNet), which is optimized for stock price prediction on short and long-term horizons. Phuoc et al. [38] studied the Vietnam stock market, an emerging economy with spe-
+
+cific characteristics. They utilized three technical indicators (SMA, MACD, and RSI) and price data for predicting stock price trends and showed that the LSTM model has high accuracy for this task.
+
+Li and Bastos [28] provided an extensive review of research papers that adopted deep learning and technical data analysis for predicting stock prices.",true,2,AI-assisted provisional coherence judgment: The paragraph-aware chunk preserves a complete explanatory sentence or paragraph around the sampled location. Author checked the label; no score change was requested.
+coh-04,arxiv-2412.05297v1,5,120 characters centered on the page midpoint; selected before comparing strategies,"y with spe-
+cific characteristics. They utilized three technical indicators (SMA, MACD, and
+RSI) and price data for pred",B_paragraph,arxiv-2412.05297v1:5:78b1fbb498b3c3d149bc8db2,"The study showed that the LSTM model is the most used approach and that deep learning is dominant in predicting stock prices.
+
+3.4 Fundamental analysis From another point of view, fundamental analysts say that past prices are insuf- ficient for predicting future stock returns, and the underlying business perfor- mance should be considered and analyzed to assess stock performance accurately [30, 18]. So, the stock selection process will be done using business financial re-
+
+ports, including balance sheets, income statements, and statements of cash flow reports [34, 44].",false,,Not selected as representative for this sample/strategy.
+coh-04,arxiv-2412.05297v1,5,120 characters centered on the page midpoint; selected before comparing strategies,"y with spe-
+cific characteristics. They utilized three technical indicators (SMA, MACD, and
+RSI) and price data for pred",B_paragraph,arxiv-2412.05297v1:5:d66717e54c504495d8ae9a5c,"Financial ratios play an important role in fundamental analysis. These formulas quantify a stock’s business performance, making comparing different stocks feasible. Arkan et al. [3] proposed a method that used 12 financial ratios to predict stock prices for 15 companies in the Kuwait stock market. The re- sult was that ROA, ROE, and net profit ratio are the most important features
+
+for predicting stock price. The three studied sectors were industrial, services, and investment sector types. Nakayama et al. [1] proposed an approach that predicts the one-month stock return for the Japanese stock market using deep 5",false,,Not selected as representative for this sample/strategy.
+coh-04,arxiv-2412.05297v1,5,120 characters centered on the page midpoint; selected before comparing strategies,"y with spe-
+cific characteristics. They utilized three technical indicators (SMA, MACD, and
+RSI) and price data for pred",C_paragraph_filter,arxiv-2412.05297v1:5:76c0034655379e08e7eb8585,"stock market [25]. Solares et al. architectured a DSS comprised of three main parts: Price forecasting, stock selection, and portfolio optimization subsystems.
+
+The price forecasting model is based on fundamental analysis, and the formed portfolio is optimized by investor risk [41]. Cho designed a DSS that provides multi-level and interactive capabilities for investors to predict market index and stock returns [10].
+
+3.3 Technical analysis As we mentioned, a line of research is based on technical analysis of stock prices.",false,,Not selected as representative for this sample/strategy.
+coh-04,arxiv-2412.05297v1,5,120 characters centered on the page midpoint; selected before comparing strategies,"y with spe-
+cific characteristics. They utilized three technical indicators (SMA, MACD, and
+RSI) and price data for pred",C_paragraph_filter,arxiv-2412.05297v1:5:bd40d324c63f2e704fcd72c1,"With this approach, stock price prediction is done using OHLC price data along with the volume of trades [30, 24]. Some previous works used only raw data from price time series, but most technical analysis researches also used technical indicators such as SMA, WMA, RSI, MACD, and others [34, 29, 28]. In this manner, the selected features (price data with calculated technical indicators)
+
+are used with a machine learning method for future return prediction. The most used methods are deep Learning, SVM, and Decision Tree [28, 35, 34].",false,,Not selected as representative for this sample/strategy.
+coh-04,arxiv-2412.05297v1,5,120 characters centered on the page midpoint; selected before comparing strategies,"y with spe-
+cific characteristics. They utilized three technical indicators (SMA, MACD, and
+RSI) and price data for pred",C_paragraph_filter,arxiv-2412.05297v1:5:593c6776341b444837f854b9,"Albahli et al. [2] used 18 technical indicators alongside OHLC and stock vol- ume data for future stock price prediction. The adopted deep learning method is based on Dense Convolutional Network architecture (DenseNet), which is optimized for stock price prediction on short and long-term horizons. Phuoc et al. [38] studied the Vietnam stock market, an emerging economy with spe-
+
+cific characteristics. They utilized three technical indicators (SMA, MACD, and RSI) and price data for predicting stock price trends and showed that the LSTM model has high accuracy for this task.
+
+Li and Bastos [28] provided an extensive review of research papers that adopted deep learning and technical data analysis for predicting stock prices.",true,2,AI-assisted provisional coherence judgment: The paragraph-aware chunk preserves a complete explanatory sentence or paragraph around the sampled location. Author checked the label; no score change was requested.
+coh-04,arxiv-2412.05297v1,5,120 characters centered on the page midpoint; selected before comparing strategies,"y with spe-
+cific characteristics. They utilized three technical indicators (SMA, MACD, and
+RSI) and price data for pred",C_paragraph_filter,arxiv-2412.05297v1:5:78b1fbb498b3c3d149bc8db2,"The study showed that the LSTM model is the most used approach and that deep learning is dominant in predicting stock prices.
+
+3.4 Fundamental analysis From another point of view, fundamental analysts say that past prices are insuf- ficient for predicting future stock returns, and the underlying business perfor- mance should be considered and analyzed to assess stock performance accurately [30, 18]. So, the stock selection process will be done using business financial re-
+
+ports, including balance sheets, income statements, and statements of cash flow reports [34, 44].",false,,Not selected as representative for this sample/strategy.
+coh-04,arxiv-2412.05297v1,5,120 characters centered on the page midpoint; selected before comparing strategies,"y with spe-
+cific characteristics. They utilized three technical indicators (SMA, MACD, and
+RSI) and price data for pred",C_paragraph_filter,arxiv-2412.05297v1:5:d66717e54c504495d8ae9a5c,"Financial ratios play an important role in fundamental analysis. These formulas quantify a stock’s business performance, making comparing different stocks feasible. Arkan et al. [3] proposed a method that used 12 financial ratios to predict stock prices for 15 companies in the Kuwait stock market. The re- sult was that ROA, ROE, and net profit ratio are the most important features
+
+for predicting stock price. The three studied sectors were industrial, services, and investment sector types. Nakayama et al. [1] proposed an approach that predicts the one-month stock return for the Japanese stock market using deep 5",false,,Not selected as representative for this sample/strategy.
+coh-05,arxiv-2412.05297v1,6,120 characters centered on the page midpoint; selected before comparing strategies,"ntal data, and so on. This issue creates an opportunity for more work
+on fundamental data analysis.
+3. In the long term,",A_fixed,arxiv-2412.05297v1:6:7029ecb48017788f821a7b44,"learning methods. In their method, five previous months’ data with 25 features
+composed of financial ratios are fed to a regression model, and the one-month
+return is predicted. They also proposed a strategy for trading stocks in the
+market. Tsai et al. [45] predicted the stock return for the next quarter using
+18 financial ratios. Five financial ratio categories were liquidity, leverage, prob-
+ability, market value, and asset efficiency ratios. For stock return prediction,
+the model was a",false,,Not selected as representative for this sample/strategy.
+coh-05,arxiv-2412.05297v1,6,120 characters centered on the page midpoint; selected before comparing strategies,"ntal data, and so on. This issue creates an opportunity for more work
+on fundamental data analysis.
+3. In the long term,",A_fixed,arxiv-2412.05297v1:6:2fe504eeefbbd3eb817e1ceb,"tios. For stock return prediction,
+the model was a regression model. Other researchers, such as Kheradyar [23],
+studied the Malaysian stock market and used fundamental analysis and financial
+ratios to predict future returns.
+3.5 Comparing technical and fundamental analysis
+If we want to compare two established fundamental and technical approaches,
+the following items are achieved [37, 30, 29]:
+1. According to Fama’s Efficient Market Hypothesis theory, if the market is
+in weak form, technical",false,,Not selected as representative for this sample/strategy.
+coh-05,arxiv-2412.05297v1,6,120 characters centered on the page midpoint; selected before comparing strategies,"ntal data, and so on. This issue creates an opportunity for more work
+on fundamental data analysis.
+3. In the long term,",A_fixed,arxiv-2412.05297v1:6:52d0e3b8521f1b41d8878b38,"s theory, if the market is
+in weak form, technical analysis data have no information for traders to
+predict stock price.
+2. The number of studies associated with fundamental approaches is much
+lower than that of technical approaches. Reasons for this are harder data
+gathering, semi-structured data format, more complex modeling of funda-
+mental data, and so on. This issue creates an opportunity for more work
+on fundamental data analysis.
+3. In the long term, the stock price is determined by",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but the fixed window begins or ends within surrounding context; understandable only with some context. Author checked the label; no score change was requested."
+coh-05,arxiv-2412.05297v1,6,120 characters centered on the page midpoint; selected before comparing strategies,"ntal data, and so on. This issue creates an opportunity for more work
+on fundamental data analysis.
+3. In the long term,",A_fixed,arxiv-2412.05297v1:6:f59eff8d45675b1715d4d043,"In the long term, the stock price is determined by business activity per-
+formance.
+4. Many known best-performer investors consider fundamental analysis as
+the method for selecting stock.
+4 Decision support system architecture
+As previously discussed, fundamental analysis approaches have more complexity
+and challenges than technical analysis approaches. The challenges lie in gather-
+ing, cleaning, integrating, and exploring published fundamental data. Solares et
+al. used a four-stage",false,,Not selected as representative for this sample/strategy.
+coh-05,arxiv-2412.05297v1,6,120 characters centered on the page midpoint; selected before comparing strategies,"ntal data, and so on. This issue creates an opportunity for more work
+on fundamental data analysis.
+3. In the long term,",A_fixed,arxiv-2412.05297v1:6:c1e8311994a3ea0ab67a3543,"fundamental data. Solares et
+al. used a four-stage architecture that includes data preprocessing, return fore-
+casting, stock selection, and portfolio optimization [41]. Similar architectures
+are adopted by other works for data collection, feature engineering, strategy
+formulation, and performance evaluation [9, 13, 6]. Thus, a robust system ar-
+chitecture is needed to tackle these challenges.
+Similar to the well-established stock markets, companies listed in the Tehran
+Stock Exchange (TSE) are",false,,Not selected as representative for this sample/strategy.
+coh-05,arxiv-2412.05297v1,6,120 characters centered on the page midpoint; selected before comparing strategies,"ntal data, and so on. This issue creates an opportunity for more work
+on fundamental data analysis.
+3. In the long term,",A_fixed,arxiv-2412.05297v1:6:9cd9985aca917c3f54194901,"nies listed in the Tehran
+Stock Exchange (TSE) are obliged to publish their financial reports regularly
+in each quarter. The three main financial reports are the balance sheet, income
+statement, and statement of cash flow. These reports are available for traders
+in different formats: PDF, Excel, and HTML. The most challenging problems
+for accessing data are:
+6",false,,Not selected as representative for this sample/strategy.
+coh-05,arxiv-2412.05297v1,6,120 characters centered on the page midpoint; selected before comparing strategies,"ntal data, and so on. This issue creates an opportunity for more work
+on fundamental data analysis.
+3. In the long term,",B_paragraph,arxiv-2412.05297v1:6:e64b8b25f8c7937987142d56,"learning methods. In their method, five previous months’ data with 25 features composed of financial ratios are fed to a regression model, and the one-month return is predicted. They also proposed a strategy for trading stocks in the market. Tsai et al. [45] predicted the stock return for the next quarter using
+
+18 financial ratios. Five financial ratio categories were liquidity, leverage, prob- ability, market value, and asset efficiency ratios. For stock return prediction, the model was a regression model. Other researchers, such as Kheradyar [23], studied the Malaysian stock market and used fundamental analysis and financial ratios to predict future returns.",false,,Not selected as representative for this sample/strategy.
+coh-05,arxiv-2412.05297v1,6,120 characters centered on the page midpoint; selected before comparing strategies,"ntal data, and so on. This issue creates an opportunity for more work
+on fundamental data analysis.
+3. In the long term,",B_paragraph,arxiv-2412.05297v1:6:66314127c4590e1d8b47470d,"3.5 Comparing technical and fundamental analysis If we want to compare two established fundamental and technical approaches, the following items are achieved [37, 30, 29]: 1. According to Fama’s Efficient Market Hypothesis theory, if the market is in weak form, technical analysis data have no information for traders to
+
+predict stock price.
+
+2. The number of studies associated with fundamental approaches is much lower than that of technical approaches. Reasons for this are harder data gathering, semi-structured data format, more complex modeling of funda- mental data, and so on. This issue creates an opportunity for more work on fundamental data analysis.
+
+3. In the long term, the stock price is determined by business activity per- formance.",true,2,AI-assisted provisional coherence judgment: The paragraph-aware chunk preserves a complete explanatory sentence or paragraph around the sampled location. Author checked the label; no score change was requested.
+coh-05,arxiv-2412.05297v1,6,120 characters centered on the page midpoint; selected before comparing strategies,"ntal data, and so on. This issue creates an opportunity for more work
+on fundamental data analysis.
+3. In the long term,",B_paragraph,arxiv-2412.05297v1:6:100cd4e01dd7f0d3aae09838,"4. Many known best-performer investors consider fundamental analysis as the method for selecting stock.
+
+4 Decision support system architecture As previously discussed, fundamental analysis approaches have more complexity and challenges than technical analysis approaches. The challenges lie in gather- ing, cleaning, integrating, and exploring published fundamental data. Solares et al. used a four-stage architecture that includes data preprocessing, return fore-
+
+casting, stock selection, and portfolio optimization [41]. Similar architectures are adopted by other works for data collection, feature engineering, strategy formulation, and performance evaluation [9, 13, 6]. Thus, a robust system ar- chitecture is needed to tackle these challenges.",false,,Not selected as representative for this sample/strategy.
+coh-05,arxiv-2412.05297v1,6,120 characters centered on the page midpoint; selected before comparing strategies,"ntal data, and so on. This issue creates an opportunity for more work
+on fundamental data analysis.
+3. In the long term,",B_paragraph,arxiv-2412.05297v1:6:ff7b9117fd9919a87fbf0479,"Similar to the well-established stock markets, companies listed in the Tehran Stock Exchange (TSE) are obliged to publish their financial reports regularly in each quarter. The three main financial reports are the balance sheet, income statement, and statement of cash flow. These reports are available for traders in different formats: PDF, Excel, and HTML. The most challenging problems
+
+for accessing data are: 6",false,,Not selected as representative for this sample/strategy.
+coh-05,arxiv-2412.05297v1,6,120 characters centered on the page midpoint; selected before comparing strategies,"ntal data, and so on. This issue creates an opportunity for more work
+on fundamental data analysis.
+3. In the long term,",C_paragraph_filter,arxiv-2412.05297v1:6:e64b8b25f8c7937987142d56,"learning methods. In their method, five previous months’ data with 25 features composed of financial ratios are fed to a regression model, and the one-month return is predicted. They also proposed a strategy for trading stocks in the market. Tsai et al. [45] predicted the stock return for the next quarter using
+
+18 financial ratios. Five financial ratio categories were liquidity, leverage, prob- ability, market value, and asset efficiency ratios. For stock return prediction, the model was a regression model. Other researchers, such as Kheradyar [23], studied the Malaysian stock market and used fundamental analysis and financial ratios to predict future returns.",false,,Not selected as representative for this sample/strategy.
+coh-05,arxiv-2412.05297v1,6,120 characters centered on the page midpoint; selected before comparing strategies,"ntal data, and so on. This issue creates an opportunity for more work
+on fundamental data analysis.
+3. In the long term,",C_paragraph_filter,arxiv-2412.05297v1:6:66314127c4590e1d8b47470d,"3.5 Comparing technical and fundamental analysis If we want to compare two established fundamental and technical approaches, the following items are achieved [37, 30, 29]: 1. According to Fama’s Efficient Market Hypothesis theory, if the market is in weak form, technical analysis data have no information for traders to
+
+predict stock price.
+
+2. The number of studies associated with fundamental approaches is much lower than that of technical approaches. Reasons for this are harder data gathering, semi-structured data format, more complex modeling of funda- mental data, and so on. This issue creates an opportunity for more work on fundamental data analysis.
+
+3. In the long term, the stock price is determined by business activity per- formance.",true,2,AI-assisted provisional coherence judgment: The paragraph-aware chunk preserves a complete explanatory sentence or paragraph around the sampled location. Author checked the label; no score change was requested.
+coh-05,arxiv-2412.05297v1,6,120 characters centered on the page midpoint; selected before comparing strategies,"ntal data, and so on. This issue creates an opportunity for more work
+on fundamental data analysis.
+3. In the long term,",C_paragraph_filter,arxiv-2412.05297v1:6:100cd4e01dd7f0d3aae09838,"4. Many known best-performer investors consider fundamental analysis as the method for selecting stock.
+
+4 Decision support system architecture As previously discussed, fundamental analysis approaches have more complexity and challenges than technical analysis approaches. The challenges lie in gather- ing, cleaning, integrating, and exploring published fundamental data. Solares et al. used a four-stage architecture that includes data preprocessing, return fore-
+
+casting, stock selection, and portfolio optimization [41]. Similar architectures are adopted by other works for data collection, feature engineering, strategy formulation, and performance evaluation [9, 13, 6]. Thus, a robust system ar- chitecture is needed to tackle these challenges.",false,,Not selected as representative for this sample/strategy.
+coh-05,arxiv-2412.05297v1,6,120 characters centered on the page midpoint; selected before comparing strategies,"ntal data, and so on. This issue creates an opportunity for more work
+on fundamental data analysis.
+3. In the long term,",C_paragraph_filter,arxiv-2412.05297v1:6:ff7b9117fd9919a87fbf0479,"Similar to the well-established stock markets, companies listed in the Tehran Stock Exchange (TSE) are obliged to publish their financial reports regularly in each quarter. The three main financial reports are the balance sheet, income statement, and statement of cash flow. These reports are available for traders in different formats: PDF, Excel, and HTML. The most challenging problems
+
+for accessing data are: 6",false,,Not selected as representative for this sample/strategy.
+coh-06,arxiv-2412.05297v1,7,120 characters centered on the page midpoint; selected before comparing strategies,"base.
+3) Data Loading:The third step is for loading data from stored JSONs and
+merging sequential reports published quar",A_fixed,arxiv-2412.05297v1:7:37b4251277ad048cea48310d,"• A crawler is needed for continuous download of announcements.
+• Data is published in semi-structured data, populated with texts and num-
+bers.
+• Data format is changed in different quarters, thus requiring a data mapper
+for unifying formats.
+• Stocks in different industries have different report formats.
+We need a system architecture to mitigate the mentioned challenges and
+the capability of crawling online and historically published fundamental data.
+The proposed system architecture is a",false,,Not selected as representative for this sample/strategy.
+coh-06,arxiv-2412.05297v1,7,120 characters centered on the page midpoint; selected before comparing strategies,"base.
+3) Data Loading:The third step is for loading data from stored JSONs and
+merging sequential reports published quar",A_fixed,arxiv-2412.05297v1:7:89199d489d9e2965f6f12b26,"mental data.
+The proposed system architecture is a pipeline architecture with the following
+components and steps:
+1) Data Gathering:The data gathering step includes crawling and saving
+reports’ announcements (online and historical data) in a SQL database.
+After downloading announcements, the next step is saving three types of
+financial reports’ data in their original format (HTML files).
+2) Data Cleaning:In this step, the main activity is cleaning of the semi-
+structured reports, including",false,,Not selected as representative for this sample/strategy.
+coh-06,arxiv-2412.05297v1,7,120 characters centered on the page midpoint; selected before comparing strategies,"base.
+3) Data Loading:The third step is for loading data from stored JSONs and
+merging sequential reports published quar",A_fixed,arxiv-2412.05297v1:7:13be49f1000d51cd5424f0a5,"leaning of the semi-
+structured reports, including normalizing texts and numbers, mapping
+reports to a unified format, and etc. For later access to the cleaned data,
+we save it in JSON format in the SQL database.
+3) Data Loading:The third step is for loading data from stored JSONs and
+merging sequential reports published quarterly. This stage speeds up the
+data processing and acts as a caching system.
+4) Stock Modeling:The main part of the system is training a model that can
+predict stock",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but the fixed window begins or ends within surrounding context; understandable only with some context. Author checked the label; no score change was requested."
+coh-06,arxiv-2412.05297v1,7,120 characters centered on the page midpoint; selected before comparing strategies,"base.
+3) Data Loading:The third step is for loading data from stored JSONs and
+merging sequential reports published quar",A_fixed,arxiv-2412.05297v1:7:6e7748e742cacc933fc3f7d2,"system is training a model that can
+predict stock return in various periods. For this purpose, different cate-
+gories of features are prepared for predicting stock return and a machine
+learning model is trained.
+5) Asset Allocation:The last step is for allocating asset in different securi-
+ties. The trained model in previous step is used for predicting the stock
+return and then determining the percentage of fund for each asset.
+The main point of system design is thepipeline architecture, which",false,,Not selected as representative for this sample/strategy.
+coh-06,arxiv-2412.05297v1,7,120 characters centered on the page midpoint; selected before comparing strategies,"base.
+3) Data Loading:The third step is for loading data from stored JSONs and
+merging sequential reports published quar",A_fixed,arxiv-2412.05297v1:7:12e9facef98aa7a0afff7f00,"f system design is thepipeline architecture, which allows
+the output of each stage to be stored independently, and each stage can be
+run separately. Stocks have different formats according to their industry, and
+reports’ formats vary over time, so the proposed architecture overcame this
+problem. Figure 1 presents the detailed system diagram.
+5 Stock prediction method
+In the previous section, we discussed the decision support system architecture.
+In this section, we will describe the method for",false,,Not selected as representative for this sample/strategy.
+coh-06,arxiv-2412.05297v1,7,120 characters centered on the page midpoint; selected before comparing strategies,"base.
+3) Data Loading:The third step is for loading data from stored JSONs and
+merging sequential reports published quar",A_fixed,arxiv-2412.05297v1:7:64e095b95519a31b6b6715fb,".
+In this section, we will describe the method for predicting future price growth
+7",false,,Not selected as representative for this sample/strategy.
+coh-06,arxiv-2412.05297v1,7,120 characters centered on the page midpoint; selected before comparing strategies,"base.
+3) Data Loading:The third step is for loading data from stored JSONs and
+merging sequential reports published quar",B_paragraph,arxiv-2412.05297v1:7:6e4bdf1f8d019dc590311f65,"• A crawler is needed for continuous download of announcements.
+
+• Data is published in semi-structured data, populated with texts and num- bers.
+
+• Data format is changed in different quarters, thus requiring a data mapper for unifying formats.
+
+• Stocks in different industries have different report formats.
+
+We need a system architecture to mitigate the mentioned challenges and the capability of crawling online and historically published fundamental data.
+
+The proposed system architecture is a pipeline architecture with the following components and steps: 1) Data Gathering:The data gathering step includes crawling and saving reports’ announcements (online and historical data) in a SQL database.
+
+After downloading announcements, the next step is saving three types of financial reports’ data in their original format (HTML files).",false,,Not selected as representative for this sample/strategy.
+coh-06,arxiv-2412.05297v1,7,120 characters centered on the page midpoint; selected before comparing strategies,"base.
+3) Data Loading:The third step is for loading data from stored JSONs and
+merging sequential reports published quar",B_paragraph,arxiv-2412.05297v1:7:fc36ae5ddbec15f474b7732a,"2) Data Cleaning:In this step, the main activity is cleaning of the semi- structured reports, including normalizing texts and numbers, mapping reports to a unified format, and etc. For later access to the cleaned data, we save it in JSON format in the SQL database.
+
+3) Data Loading:The third step is for loading data from stored JSONs and merging sequential reports published quarterly. This stage speeds up the data processing and acts as a caching system.
+
+4) Stock Modeling:The main part of the system is training a model that can predict stock return in various periods. For this purpose, different cate- gories of features are prepared for predicting stock return and a machine learning model is trained.",true,2,AI-assisted provisional coherence judgment: The paragraph-aware chunk preserves a complete explanatory sentence or paragraph around the sampled location. Author checked the label; no score change was requested.
+coh-06,arxiv-2412.05297v1,7,120 characters centered on the page midpoint; selected before comparing strategies,"base.
+3) Data Loading:The third step is for loading data from stored JSONs and
+merging sequential reports published quar",B_paragraph,arxiv-2412.05297v1:7:bb0276d841170d74a118667c,"5) Asset Allocation:The last step is for allocating asset in different securi- ties. The trained model in previous step is used for predicting the stock return and then determining the percentage of fund for each asset.
+
+The main point of system design is thepipeline architecture, which allows the output of each stage to be stored independently, and each stage can be run separately. Stocks have different formats according to their industry, and reports’ formats vary over time, so the proposed architecture overcame this problem. Figure 1 presents the detailed system diagram.
+
+5 Stock prediction method In the previous section, we discussed the decision support system architecture.
+
+In this section, we will describe the method for predicting future price growth 7",false,,Not selected as representative for this sample/strategy.
+coh-06,arxiv-2412.05297v1,7,120 characters centered on the page midpoint; selected before comparing strategies,"base.
+3) Data Loading:The third step is for loading data from stored JSONs and
+merging sequential reports published quar",C_paragraph_filter,arxiv-2412.05297v1:7:6e4bdf1f8d019dc590311f65,"• A crawler is needed for continuous download of announcements.
+
+• Data is published in semi-structured data, populated with texts and num- bers.
+
+• Data format is changed in different quarters, thus requiring a data mapper for unifying formats.
+
+• Stocks in different industries have different report formats.
+
+We need a system architecture to mitigate the mentioned challenges and the capability of crawling online and historically published fundamental data.
+
+The proposed system architecture is a pipeline architecture with the following components and steps: 1) Data Gathering:The data gathering step includes crawling and saving reports’ announcements (online and historical data) in a SQL database.
+
+After downloading announcements, the next step is saving three types of financial reports’ data in their original format (HTML files).",false,,Not selected as representative for this sample/strategy.
+coh-06,arxiv-2412.05297v1,7,120 characters centered on the page midpoint; selected before comparing strategies,"base.
+3) Data Loading:The third step is for loading data from stored JSONs and
+merging sequential reports published quar",C_paragraph_filter,arxiv-2412.05297v1:7:fc36ae5ddbec15f474b7732a,"2) Data Cleaning:In this step, the main activity is cleaning of the semi- structured reports, including normalizing texts and numbers, mapping reports to a unified format, and etc. For later access to the cleaned data, we save it in JSON format in the SQL database.
+
+3) Data Loading:The third step is for loading data from stored JSONs and merging sequential reports published quarterly. This stage speeds up the data processing and acts as a caching system.
+
+4) Stock Modeling:The main part of the system is training a model that can predict stock return in various periods. For this purpose, different cate- gories of features are prepared for predicting stock return and a machine learning model is trained.",true,2,AI-assisted provisional coherence judgment: The paragraph-aware chunk preserves a complete explanatory sentence or paragraph around the sampled location. Author checked the label; no score change was requested.
+coh-06,arxiv-2412.05297v1,7,120 characters centered on the page midpoint; selected before comparing strategies,"base.
+3) Data Loading:The third step is for loading data from stored JSONs and
+merging sequential reports published quar",C_paragraph_filter,arxiv-2412.05297v1:7:bb0276d841170d74a118667c,"5) Asset Allocation:The last step is for allocating asset in different securi- ties. The trained model in previous step is used for predicting the stock return and then determining the percentage of fund for each asset.
+
+The main point of system design is thepipeline architecture, which allows the output of each stage to be stored independently, and each stage can be run separately. Stocks have different formats according to their industry, and reports’ formats vary over time, so the proposed architecture overcame this problem. Figure 1 presents the detailed system diagram.
+
+5 Stock prediction method In the previous section, we discussed the decision support system architecture.
+
+In this section, we will describe the method for predicting future price growth 7",false,,Not selected as representative for this sample/strategy.
+coh-07,arxiv-2412.05297v1,8,120 characters centered on the page midpoint; selected before comparing strategies," world. We will
+describe this in detail in the following subsection.
+5.1 Building feature set
+Feature engineering and fe",A_fixed,arxiv-2412.05297v1:8:e45c0d3326e9fcab78ae309c,"Train Model
+Build Features
+Map & Aggregate Data
+Load Data
+Clean Balance Sheet
+Clean Cashflow
+Clean Income Statement
+save as HTML
+save to DB
+save to DB
+Crawl reports
+Crawl announcement list
+Crawl stock list
+HTML Files
+Database
+5) Asset Allocation
+4) Stock Modeling
+3) Data Loading
+2) Data Cleaning
+1) Data Gathering
+Figure 1: Proposed system architecture
+and choosing the best stocks based on their current state. One important step
+is the process of preparing the feature set. The collected feature",false,,Not selected as representative for this sample/strategy.
+coh-07,arxiv-2412.05297v1,8,120 characters centered on the page midpoint; selected before comparing strategies," world. We will
+describe this in detail in the following subsection.
+5.1 Building feature set
+Feature engineering and fe",A_fixed,arxiv-2412.05297v1:8:629106ef90baa953452d86ee,"f preparing the feature set. The collected feature set represents
+a profile of the business and its trading behavior along with the macroeconomic
+and market factors for a complete representation of the real world. We will
+describe this in detail in the following subsection.
+5.1 Building feature set
+Feature engineering and feature selection is an essential stage in any machine
+learning task, specifically stock prediction [20, 21]. We reviewed the most used
+features and approaches in section 3",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but the fixed window begins or ends within surrounding context; understandable only with some context. Author checked the label; no score change was requested."
+coh-07,arxiv-2412.05297v1,8,120 characters centered on the page midpoint; selected before comparing strategies," world. We will
+describe this in detail in the following subsection.
+5.1 Building feature set
+Feature engineering and fe",A_fixed,arxiv-2412.05297v1:8:9bce744c844a1bc876608fb8,"the most used
+features and approaches in section 3 and had a comparison between them. This
+section presents the methodology and process used to prepare the data and
+features, along with the rationale for the decision.
+As discussed, many experts believe that a company’s financial performance,
+as reported in financial statements, plays a significant role in driving its stock
+price. Financial ratios are formulas that enable traders to compare stocks to each
+other and compare stock performance in",false,,Not selected as representative for this sample/strategy.
+coh-07,arxiv-2412.05297v1,8,120 characters centered on the page midpoint; selected before comparing strategies," world. We will
+describe this in detail in the following subsection.
+5.1 Building feature set
+Feature engineering and fe",A_fixed,arxiv-2412.05297v1:8:12462596a8b25c0f3881acc7,"cks to each
+other and compare stock performance in different periods. Many researchers
+8",false,,Not selected as representative for this sample/strategy.
+coh-07,arxiv-2412.05297v1,8,120 characters centered on the page midpoint; selected before comparing strategies," world. We will
+describe this in detail in the following subsection.
+5.1 Building feature set
+Feature engineering and fe",B_paragraph,arxiv-2412.05297v1:8:e6b4e48579729678978a5bf5,"Train Model Build Features Map & Aggregate Data Load Data Clean Balance Sheet
+
+Clean Cashflow Clean Income Statement save as HTML save to DB save to DB
+
+Crawl reports Crawl announcement list Crawl stock list HTML Files Database
+
+5) Asset Allocation 4) Stock Modeling 3) Data Loading 2) Data Cleaning 1) Data Gathering
+
+Figure 1: Proposed system architecture and choosing the best stocks based on their current state. One important step is the process of preparing the feature set. The collected feature set represents a profile of the business and its trading behavior along with the macroeconomic and market factors for a complete representation of the real world. We will
+
+describe this in detail in the following subsection.",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but neighboring context is clipped or table/diagram structure limits standalone interpretation. Author checked the label; no score change was requested."
+coh-07,arxiv-2412.05297v1,8,120 characters centered on the page midpoint; selected before comparing strategies," world. We will
+describe this in detail in the following subsection.
+5.1 Building feature set
+Feature engineering and fe",B_paragraph,arxiv-2412.05297v1:8:760633c5cfd50e446990aca7,"5.1 Building feature set Feature engineering and feature selection is an essential stage in any machine learning task, specifically stock prediction [20, 21]. We reviewed the most used features and approaches in section 3 and had a comparison between them. This section presents the methodology and process used to prepare the data and
+
+features, along with the rationale for the decision.
+
+As discussed, many experts believe that a company’s financial performance, as reported in financial statements, plays a significant role in driving its stock price. Financial ratios are formulas that enable traders to compare stocks to each other and compare stock performance in different periods. Many researchers 8",false,,Not selected as representative for this sample/strategy.
+coh-07,arxiv-2412.05297v1,8,120 characters centered on the page midpoint; selected before comparing strategies," world. We will
+describe this in detail in the following subsection.
+5.1 Building feature set
+Feature engineering and fe",C_paragraph_filter,arxiv-2412.05297v1:8:e6b4e48579729678978a5bf5,"Train Model Build Features Map & Aggregate Data Load Data Clean Balance Sheet
+
+Clean Cashflow Clean Income Statement save as HTML save to DB save to DB
+
+Crawl reports Crawl announcement list Crawl stock list HTML Files Database
+
+5) Asset Allocation 4) Stock Modeling 3) Data Loading 2) Data Cleaning 1) Data Gathering
+
+Figure 1: Proposed system architecture and choosing the best stocks based on their current state. One important step is the process of preparing the feature set. The collected feature set represents a profile of the business and its trading behavior along with the macroeconomic and market factors for a complete representation of the real world. We will
+
+describe this in detail in the following subsection.",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but neighboring context is clipped or table/diagram structure limits standalone interpretation. Author checked the label; no score change was requested."
+coh-07,arxiv-2412.05297v1,8,120 characters centered on the page midpoint; selected before comparing strategies," world. We will
+describe this in detail in the following subsection.
+5.1 Building feature set
+Feature engineering and fe",C_paragraph_filter,arxiv-2412.05297v1:8:760633c5cfd50e446990aca7,"5.1 Building feature set Feature engineering and feature selection is an essential stage in any machine learning task, specifically stock prediction [20, 21]. We reviewed the most used features and approaches in section 3 and had a comparison between them. This section presents the methodology and process used to prepare the data and
+
+features, along with the rationale for the decision.
+
+As discussed, many experts believe that a company’s financial performance, as reported in financial statements, plays a significant role in driving its stock price. Financial ratios are formulas that enable traders to compare stocks to each other and compare stock performance in different periods. Many researchers 8",false,,Not selected as representative for this sample/strategy.
+coh-08,arxiv-2412.05297v1,9,120 characters centered on the page midpoint; selected before comparing strategies,"t Income Margin Net IncomeRevenue
+Operating Profit Margin Operating ProfitRevenue
+Interest Coverage Ratio Earnings Befor",A_fixed,arxiv-2412.05297v1:9:225d176cc7d601984aace3fd,"based their stock prediction on financial ratios that were explained in section
+3.4.
+At first, we build a feature set based on financial ratios for predicting stock
+return. These ratios are used by expert fundamental analysts to analyze a
+company’s financial performance and health. Number of distinct features is 23,
+that two most important of them are Gross Profit Growth and Revenue Growth,
+which are adopted from CANSLIM method. The features are presented in
+table 1.
+F eature F",false,,Not selected as representative for this sample/strategy.
+coh-08,arxiv-2412.05297v1,9,120 characters centered on the page midpoint; selected before comparing strategies,"t Income Margin Net IncomeRevenue
+Operating Profit Margin Operating ProfitRevenue
+Interest Coverage Ratio Earnings Befor",A_fixed,arxiv-2412.05297v1:9:7c4490deb6d7672632bbe775,"The features are presented in
+table 1.
+F eature F ormula
+Debt-to-Equity Ratio Total DebtTotal Equity
+Return on Fixed Assets Net IncomeAverage Fixed Assets
+Debt Ratio Total DebtTotal Assets
+Gross Profit Margin Gross ProfitRevenue
+Current Ratio Current AssetsCurrent Liabilities
+Net Income Margin Net IncomeRevenue
+Operating Profit Margin Operating ProfitRevenue
+Interest Coverage Ratio Earnings Before Interest and TaxesInterest Expense
+Return-on-Equity Ratio Net IncomeAverage Shareholders’",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but the fixed window begins or ends within surrounding context; understandable only with some context. Author checked the label; no score change was requested."
+coh-08,arxiv-2412.05297v1,9,120 characters centered on the page midpoint; selected before comparing strategies,"t Income Margin Net IncomeRevenue
+Operating Profit Margin Operating ProfitRevenue
+Interest Coverage Ratio Earnings Befor",A_fixed,arxiv-2412.05297v1:9:8947e21972465d37148360d8,"rn-on-Equity Ratio Net IncomeAverage Shareholders’ Equity
+Cash Flow to Income Operating Cash FlowNet Income
+Quick Ratio Current Assets - InventoryCurrent Liabilities
+Long-Term Debt Ratio Long-Term DebtTotal Assets
+Return on Assets Net IncomeAverage Total Assets
+Inventory Turnover Cost of Goods SoldAverage Inventory
+Asset Turnover RevenueAverage Total Assets
+Cash Ratio Cash + Cash EquivalentsCurrent Liabilities
+Gross Profit Growth
+Current Period Gross Profit
+Previous Year Same Period Gross",false,,Not selected as representative for this sample/strategy.
+coh-08,arxiv-2412.05297v1,9,120 characters centered on the page midpoint; selected before comparing strategies,"t Income Margin Net IncomeRevenue
+Operating Profit Margin Operating ProfitRevenue
+Interest Coverage Ratio Earnings Befor",A_fixed,arxiv-2412.05297v1:9:aa082b2b9897cb856ba8fc87,"eriod Gross Profit
+Previous Year Same Period Gross Profit −
+1
+Revenue Growth Current Period RevenuePrevious Year Same Period Revenue − 1
+RE/TA Ratio Retained EarningsTotal Assets
+P/E TTM Market Price per ShareEarnings per Share
+9",false,,Not selected as representative for this sample/strategy.
+coh-08,arxiv-2412.05297v1,9,120 characters centered on the page midpoint; selected before comparing strategies,"t Income Margin Net IncomeRevenue
+Operating Profit Margin Operating ProfitRevenue
+Interest Coverage Ratio Earnings Befor",B_paragraph,arxiv-2412.05297v1:9:45c2d653ee92f10d5c5108e7,"based their stock prediction on financial ratios that were explained in section 3.4.
+
+At first, we build a feature set based on financial ratios for predicting stock return. These ratios are used by expert fundamental analysts to analyze a company’s financial performance and health. Number of distinct features is 23, that two most important of them are Gross Profit Growth and Revenue Growth, which are adopted from CANSLIM method. The features are presented in
+
+table 1.
+
+F eature F ormula Debt-to-Equity Ratio Total DebtTotal Equity Return on Fixed Assets Net IncomeAverage Fixed Assets Debt Ratio Total DebtTotal Assets Gross Profit Margin Gross ProfitRevenue",false,,Not selected as representative for this sample/strategy.
+coh-08,arxiv-2412.05297v1,9,120 characters centered on the page midpoint; selected before comparing strategies,"t Income Margin Net IncomeRevenue
+Operating Profit Margin Operating ProfitRevenue
+Interest Coverage Ratio Earnings Befor",B_paragraph,arxiv-2412.05297v1:9:840269846b07721dc203a639,"Current Ratio Current AssetsCurrent Liabilities Net Income Margin Net IncomeRevenue Operating Profit Margin Operating ProfitRevenue Interest Coverage Ratio Earnings Before Interest and TaxesInterest Expense Return-on-Equity Ratio Net IncomeAverage Shareholders’ Equity
+
+Cash Flow to Income Operating Cash FlowNet Income Quick Ratio Current Assets - InventoryCurrent Liabilities Long-Term Debt Ratio Long-Term DebtTotal Assets Return on Assets Net IncomeAverage Total Assets Inventory Turnover Cost of Goods SoldAverage Inventory
+
+Asset Turnover RevenueAverage Total Assets Cash Ratio Cash + Cash EquivalentsCurrent Liabilities Gross Profit Growth Current Period Gross Profit Previous Year Same Period Gross Profit −",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but neighboring context is clipped or table/diagram structure limits standalone interpretation. Author checked the label; no score change was requested."
+coh-08,arxiv-2412.05297v1,9,120 characters centered on the page midpoint; selected before comparing strategies,"t Income Margin Net IncomeRevenue
+Operating Profit Margin Operating ProfitRevenue
+Interest Coverage Ratio Earnings Befor",B_paragraph,arxiv-2412.05297v1:9:27378c95b02657cb7b90451a,1 Revenue Growth Current Period RevenuePrevious Year Same Period Revenue − 1 RE/TA Ratio Retained EarningsTotal Assets P/E TTM Market Price per ShareEarnings per Share 9,false,,Not selected as representative for this sample/strategy.
+coh-08,arxiv-2412.05297v1,9,120 characters centered on the page midpoint; selected before comparing strategies,"t Income Margin Net IncomeRevenue
+Operating Profit Margin Operating ProfitRevenue
+Interest Coverage Ratio Earnings Befor",C_paragraph_filter,arxiv-2412.05297v1:9:45c2d653ee92f10d5c5108e7,"based their stock prediction on financial ratios that were explained in section 3.4.
+
+At first, we build a feature set based on financial ratios for predicting stock return. These ratios are used by expert fundamental analysts to analyze a company’s financial performance and health. Number of distinct features is 23, that two most important of them are Gross Profit Growth and Revenue Growth, which are adopted from CANSLIM method. The features are presented in
+
+table 1.
+
+F eature F ormula Debt-to-Equity Ratio Total DebtTotal Equity Return on Fixed Assets Net IncomeAverage Fixed Assets Debt Ratio Total DebtTotal Assets Gross Profit Margin Gross ProfitRevenue",false,,Not selected as representative for this sample/strategy.
+coh-08,arxiv-2412.05297v1,9,120 characters centered on the page midpoint; selected before comparing strategies,"t Income Margin Net IncomeRevenue
+Operating Profit Margin Operating ProfitRevenue
+Interest Coverage Ratio Earnings Befor",C_paragraph_filter,arxiv-2412.05297v1:9:840269846b07721dc203a639,"Current Ratio Current AssetsCurrent Liabilities Net Income Margin Net IncomeRevenue Operating Profit Margin Operating ProfitRevenue Interest Coverage Ratio Earnings Before Interest and TaxesInterest Expense Return-on-Equity Ratio Net IncomeAverage Shareholders’ Equity
+
+Cash Flow to Income Operating Cash FlowNet Income Quick Ratio Current Assets - InventoryCurrent Liabilities Long-Term Debt Ratio Long-Term DebtTotal Assets Return on Assets Net IncomeAverage Total Assets Inventory Turnover Cost of Goods SoldAverage Inventory
+
+Asset Turnover RevenueAverage Total Assets Cash Ratio Cash + Cash EquivalentsCurrent Liabilities Gross Profit Growth Current Period Gross Profit Previous Year Same Period Gross Profit −",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but neighboring context is clipped or table/diagram structure limits standalone interpretation. Author checked the label; no score change was requested."
+coh-08,arxiv-2412.05297v1,9,120 characters centered on the page midpoint; selected before comparing strategies,"t Income Margin Net IncomeRevenue
+Operating Profit Margin Operating ProfitRevenue
+Interest Coverage Ratio Earnings Befor",C_paragraph_filter,arxiv-2412.05297v1:9:27378c95b02657cb7b90451a,1 Revenue Growth Current Period RevenuePrevious Year Same Period Revenue − 1 RE/TA Ratio Retained EarningsTotal Assets P/E TTM Market Price per ShareEarnings per Share 9,false,,Not selected as representative for this sample/strategy.
+coh-09,arxiv-2412.05297v1,10,120 characters centered on the page midpoint; selected before comparing strategies," ratio
+in relation to stock type. The stock type features are presented in table 2.
+F eature Description
+Stock Industry ",A_fixed,arxiv-2412.05297v1:10:333278d41050876b64036c79,"P/E TTM Median The median of P/E ratio over thetrailing twelve months
+P/S TTM Market Price per ShareRevenue per Share
+P/S TTM Median The median of P/S ratio over thetrailing twelve months
+Beta (1 year) Cov(Rm,Rs)Var(Rs)
+Table 1: Financial ratio features
+The impact of financial ratios may vary depending on the stock’s industry
+and type. Two main stock type features are the stock industry and whether
+the stock is a production company or not. By adding these two features, the
+model performance",false,,Not selected as representative for this sample/strategy.
+coh-09,arxiv-2412.05297v1,10,120 characters centered on the page midpoint; selected before comparing strategies," ratio
+in relation to stock type. The stock type features are presented in table 2.
+F eature Description
+Stock Industry ",A_fixed,arxiv-2412.05297v1:10:893b578910d8b7729edf56af,"y adding these two features, the
+model performance increases because of considering the effect of financial ratio
+in relation to stock type. The stock type features are presented in table 2.
+F eature Description
+Stock Industry Stock’s industry and sector
+Stock Market Exchange The market exchange for stock
+Activity Type Company activity type includingproduction and others
+Table 2: Stock type features
+By using financial ratio and stock type features, the financial performance
+of the company will",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but the fixed window begins or ends within surrounding context; understandable only with some context. Author checked the label; no score change was requested."
+coh-09,arxiv-2412.05297v1,10,120 characters centered on the page midpoint; selected before comparing strategies," ratio
+in relation to stock type. The stock type features are presented in table 2.
+F eature Description
+Stock Industry ",A_fixed,arxiv-2412.05297v1:10:0a36f3702fc96fc38f206ded,"res, the financial performance
+of the company will be analyzed well. However, for accurate prediction of stock
+prices, we need to include market data features about stock and market condi-
+tions. These features show the investor’s tendency to buy stock and invest in
+it. These features with descriptions are presented in table 3.
+10",false,,Not selected as representative for this sample/strategy.
+coh-09,arxiv-2412.05297v1,10,120 characters centered on the page midpoint; selected before comparing strategies," ratio
+in relation to stock type. The stock type features are presented in table 2.
+F eature Description
+Stock Industry ",B_paragraph,arxiv-2412.05297v1:10:d2dfa196961547bc69cf1afe,"P/E TTM Median The median of P/E ratio over thetrailing twelve months P/S TTM Market Price per ShareRevenue per Share P/S TTM Median The median of P/S ratio over thetrailing twelve months Beta (1 year) Cov(Rm,Rs)Var(Rs)
+
+Table 1: Financial ratio features The impact of financial ratios may vary depending on the stock’s industry and type. Two main stock type features are the stock industry and whether the stock is a production company or not. By adding these two features, the model performance increases because of considering the effect of financial ratio
+
+in relation to stock type. The stock type features are presented in table 2.
+
+F eature Description Stock Industry Stock’s industry and sector Stock Market Exchange The market exchange for stock Activity Type Company activity type includingproduction and others",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but neighboring context is clipped or table/diagram structure limits standalone interpretation. Author checked the label; no score change was requested."
+coh-09,arxiv-2412.05297v1,10,120 characters centered on the page midpoint; selected before comparing strategies," ratio
+in relation to stock type. The stock type features are presented in table 2.
+F eature Description
+Stock Industry ",B_paragraph,arxiv-2412.05297v1:10:6c451c2dc54945bac5d5e534,"Table 2: Stock type features By using financial ratio and stock type features, the financial performance of the company will be analyzed well. However, for accurate prediction of stock prices, we need to include market data features about stock and market condi- tions. These features show the investor’s tendency to buy stock and invest in
+
+it. These features with descriptions are presented in table 3.
+
+10",false,,Not selected as representative for this sample/strategy.
+coh-09,arxiv-2412.05297v1,10,120 characters centered on the page midpoint; selected before comparing strategies," ratio
+in relation to stock type. The stock type features are presented in table 2.
+F eature Description
+Stock Industry ",C_paragraph_filter,arxiv-2412.05297v1:10:d2dfa196961547bc69cf1afe,"P/E TTM Median The median of P/E ratio over thetrailing twelve months P/S TTM Market Price per ShareRevenue per Share P/S TTM Median The median of P/S ratio over thetrailing twelve months Beta (1 year) Cov(Rm,Rs)Var(Rs)
+
+Table 1: Financial ratio features The impact of financial ratios may vary depending on the stock’s industry and type. Two main stock type features are the stock industry and whether the stock is a production company or not. By adding these two features, the model performance increases because of considering the effect of financial ratio
+
+in relation to stock type. The stock type features are presented in table 2.
+
+F eature Description Stock Industry Stock’s industry and sector Stock Market Exchange The market exchange for stock Activity Type Company activity type includingproduction and others",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but neighboring context is clipped or table/diagram structure limits standalone interpretation. Author checked the label; no score change was requested."
+coh-09,arxiv-2412.05297v1,10,120 characters centered on the page midpoint; selected before comparing strategies," ratio
+in relation to stock type. The stock type features are presented in table 2.
+F eature Description
+Stock Industry ",C_paragraph_filter,arxiv-2412.05297v1:10:6c451c2dc54945bac5d5e534,"Table 2: Stock type features By using financial ratio and stock type features, the financial performance of the company will be analyzed well. However, for accurate prediction of stock prices, we need to include market data features about stock and market condi- tions. These features show the investor’s tendency to buy stock and invest in
+
+it. These features with descriptions are presented in table 3.
+
+10",false,,Not selected as representative for this sample/strategy.
+coh-10,arxiv-2412.05297v1,11,120 characters centered on the page midpoint; selected before comparing strategies,"stock prices.
+So the features listed in table 4, appended to the features list, that had a good
+effect on model accuracy",A_fixed,arxiv-2412.05297v1:11:dd407189f783c03178b1416b,"F eatures Calculation
+Average Price Volatility
+The average daily volatility of price
+in the last month. Volatility com-
+puted as High/Low
+Average Daily Return The average daily return of stock inthe last month
+Average Trades Value The average daily value of stocktrades in the last month
+B/S Power Ratio
+The daily average of the power di-
+vided by cellular power in the last
+month. power is the value individ-
+ual traded divided by number of in-
+dividual traded.
+Ownership Change The average value",false,,Not selected as representative for this sample/strategy.
+coh-10,arxiv-2412.05297v1,11,120 characters centered on the page midpoint; selected before comparing strategies,"stock prices.
+So the features listed in table 4, appended to the features list, that had a good
+effect on model accuracy",A_fixed,arxiv-2412.05297v1:11:24e4b0f70a21cfde003f2b95,"ividual traded.
+Ownership Change The average value individualbought and sold in the last month.
+Table 3: Stock trading features
+The last main category of features is about macroeconomic indicators. The
+good performance of macroeconomic indicators significantly impacts stock prices.
+So the features listed in table 4, appended to the features list, that had a good
+effect on model accuracy. In Iran’s capital market, the strength of the na-
+tional currency against other currencies, specifically the",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but the fixed window begins or ends within surrounding context; understandable only with some context. Author checked the label; no score change was requested."
+coh-10,arxiv-2412.05297v1,11,120 characters centered on the page midpoint; selected before comparing strategies,"stock prices.
+So the features listed in table 4, appended to the features list, that had a good
+effect on model accuracy",A_fixed,arxiv-2412.05297v1:11:00c2e2aed3ac47c41927400f,"urrency against other currencies, specifically the dollar, is essential data
+in examining the company’s performance and the attractiveness of the capital
+market.
+F eature Description
+Gov. Bonds Return Government Bonds Last Month Av-erage Return
+USD/IRR Exchange Rate The value of the U.S. dollar (USD)against the Iranian rial (IRR)
+USD/IRR Exchange Rate Return The USD/IRR last month return
+Equal-Weight Index Return Equal-Weight Index last month re-turn
+Market Index Value The market capitalization",false,,Not selected as representative for this sample/strategy.
+coh-10,arxiv-2412.05297v1,11,120 characters centered on the page midpoint; selected before comparing strategies,"stock prices.
+So the features listed in table 4, appended to the features list, that had a good
+effect on model accuracy",A_fixed,arxiv-2412.05297v1:11:bd44dc2b2ab083556b39e6d8,"-turn
+Market Index Value The market capitalization weightedindex of TSE
+Market Index Return Weighted index three months return
+Gold Spot USD-Return 1 month return
+Table 4: Macroeconomic and market features
+11",false,,Not selected as representative for this sample/strategy.
+coh-10,arxiv-2412.05297v1,11,120 characters centered on the page midpoint; selected before comparing strategies,"stock prices.
+So the features listed in table 4, appended to the features list, that had a good
+effect on model accuracy",B_paragraph,arxiv-2412.05297v1:11:8b340a7931923935f719feb3,"F eatures Calculation Average Price Volatility The average daily volatility of price in the last month. Volatility com- puted as High/Low
+
+Average Daily Return The average daily return of stock inthe last month Average Trades Value The average daily value of stocktrades in the last month B/S Power Ratio The daily average of the power di- vided by cellular power in the last
+
+month. power is the value individ- ual traded divided by number of in- dividual traded.
+
+Ownership Change The average value individualbought and sold in the last month.
+
+Table 3: Stock trading features The last main category of features is about macroeconomic indicators. The good performance of macroeconomic indicators significantly impacts stock prices.",false,,Not selected as representative for this sample/strategy.
+coh-10,arxiv-2412.05297v1,11,120 characters centered on the page midpoint; selected before comparing strategies,"stock prices.
+So the features listed in table 4, appended to the features list, that had a good
+effect on model accuracy",B_paragraph,arxiv-2412.05297v1:11:680c5151b1950aee7d19a28f,"So the features listed in table 4, appended to the features list, that had a good effect on model accuracy. In Iran’s capital market, the strength of the na- tional currency against other currencies, specifically the dollar, is essential data in examining the company’s performance and the attractiveness of the capital market.
+
+F eature Description Gov. Bonds Return Government Bonds Last Month Av-erage Return USD/IRR Exchange Rate The value of the U.S. dollar (USD)against the Iranian rial (IRR) USD/IRR Exchange Rate Return The USD/IRR last month return Equal-Weight Index Return Equal-Weight Index last month re-turn
+
+Market Index Value The market capitalization weightedindex of TSE Market Index Return Weighted index three months return Gold Spot USD-Return 1 month return
+
+Table 4: Macroeconomic and market features 11",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but neighboring context is clipped or table/diagram structure limits standalone interpretation. Author checked the label; no score change was requested."
+coh-10,arxiv-2412.05297v1,11,120 characters centered on the page midpoint; selected before comparing strategies,"stock prices.
+So the features listed in table 4, appended to the features list, that had a good
+effect on model accuracy",C_paragraph_filter,arxiv-2412.05297v1:11:8b340a7931923935f719feb3,"F eatures Calculation Average Price Volatility The average daily volatility of price in the last month. Volatility com- puted as High/Low
+
+Average Daily Return The average daily return of stock inthe last month Average Trades Value The average daily value of stocktrades in the last month B/S Power Ratio The daily average of the power di- vided by cellular power in the last
+
+month. power is the value individ- ual traded divided by number of in- dividual traded.
+
+Ownership Change The average value individualbought and sold in the last month.
+
+Table 3: Stock trading features The last main category of features is about macroeconomic indicators. The good performance of macroeconomic indicators significantly impacts stock prices.",false,,Not selected as representative for this sample/strategy.
+coh-10,arxiv-2412.05297v1,11,120 characters centered on the page midpoint; selected before comparing strategies,"stock prices.
+So the features listed in table 4, appended to the features list, that had a good
+effect on model accuracy",C_paragraph_filter,arxiv-2412.05297v1:11:680c5151b1950aee7d19a28f,"So the features listed in table 4, appended to the features list, that had a good effect on model accuracy. In Iran’s capital market, the strength of the na- tional currency against other currencies, specifically the dollar, is essential data in examining the company’s performance and the attractiveness of the capital market.
+
+F eature Description Gov. Bonds Return Government Bonds Last Month Av-erage Return USD/IRR Exchange Rate The value of the U.S. dollar (USD)against the Iranian rial (IRR) USD/IRR Exchange Rate Return The USD/IRR last month return Equal-Weight Index Return Equal-Weight Index last month re-turn
+
+Market Index Value The market capitalization weightedindex of TSE Market Index Return Weighted index three months return Gold Spot USD-Return 1 month return
+
+Table 4: Macroeconomic and market features 11",true,1,"AI-assisted provisional coherence judgment: The sampled location is present, but neighboring context is clipped or table/diagram structure limits standalone interpretation. Author checked the label; no score change was requested."

@@ -1,0 +1,62 @@
+{
+  "A_fixed/dev": {
+    "question_count": 15,
+    "hit_at_1": 8,
+    "hit_at_1_rate": 0.5333333333333333,
+    "evidence_hit_at_3": 9,
+    "evidence_hit_at_3_rate": 0.6,
+    "filtered_question_count": 0,
+    "filter_compliant": 0,
+    "filter_compliant_rate": null
+  },
+  "A_fixed/test": {
+    "question_count": 5,
+    "hit_at_1": 1,
+    "hit_at_1_rate": 0.2,
+    "evidence_hit_at_3": 2,
+    "evidence_hit_at_3_rate": 0.4,
+    "filtered_question_count": 0,
+    "filter_compliant": 0,
+    "filter_compliant_rate": null
+  },
+  "B_paragraph/dev": {
+    "question_count": 15,
+    "hit_at_1": 7,
+    "hit_at_1_rate": 0.4666666666666667,
+    "evidence_hit_at_3": 9,
+    "evidence_hit_at_3_rate": 0.6,
+    "filtered_question_count": 0,
+    "filter_compliant": 0,
+    "filter_compliant_rate": null
+  },
+  "B_paragraph/test": {
+    "question_count": 5,
+    "hit_at_1": 2,
+    "hit_at_1_rate": 0.4,
+    "evidence_hit_at_3": 2,
+    "evidence_hit_at_3_rate": 0.4,
+    "filtered_question_count": 0,
+    "filter_compliant": 0,
+    "filter_compliant_rate": null
+  },
+  "C_paragraph_filter/dev": {
+    "question_count": 15,
+    "hit_at_1": 7,
+    "hit_at_1_rate": 0.4666666666666667,
+    "evidence_hit_at_3": 9,
+    "evidence_hit_at_3_rate": 0.6,
+    "filtered_question_count": 3,
+    "filter_compliant": 3,
+    "filter_compliant_rate": 1.0
+  },
+  "C_paragraph_filter/test": {
+    "question_count": 5,
+    "hit_at_1": 2,
+    "hit_at_1_rate": 0.4,
+    "evidence_hit_at_3": 2,
+    "evidence_hit_at_3_rate": 0.4,
+    "filtered_question_count": 2,
+    "filter_compliant": 2,
+    "filter_compliant_rate": 1.0
+  }
+}

@@ -27,39 +27,38 @@ starter/
 
 Cần Docker Desktop hoặc Docker Engine + Compose, Python **3.11–3.14**, và mạng để tải image/dependencies lần đầu. Các lệnh sau chạy từ thư mục `starter/`:
 
-```bash
-cd starter
-python3 -m venv .venv
-```
-
-Kích hoạt `.venv`: macOS/Linux dùng `source .venv/bin/activate`; Windows PowerShell dùng `.venv\Scripts\Activate.ps1`. Sau đó:
-
-```bash
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
-# macOS/Linux: cp .env.example .env
-# Windows PowerShell: Copy-Item .env.example .env
+Copy-Item .env.example .env
 docker compose -p day6_student_starter up -d --wait
 python scripts/check_setup.py
 ```
 
-Kỳ vọng: hiện tên database, phiên bản PostgreSQL và pgvector, sau đó `Setup OK`. Đây **chỉ là kiểm tra hạ tầng**, không phải kết quả benchmark. Docker dùng cổng `127.0.0.1:55433` và mật khẩu cố định **chỉ dùng local cho lab**; nếu cổng bận, sửa đồng thời port trong `docker-compose.yml` và `DATABASE_URL` trong `.env`. `init.sql` chỉ chạy khi volume mới được tạo; nếu database sẵn có chưa bật extension, xem log Docker và kiểm tra cấu hình thay vì xóa volume chứa dữ liệu.
+Set the OpenRouter key in the local `.env`; never commit that file. The example configuration uses Qwen3 Embedding 8B with 4096 dimensions. PostgreSQL is exposed only on localhost port 55433. Stop the service without removing its data with `docker compose -p day6_student_starter stop`.
 
-Dừng container nhưng giữ dữ liệu:
+## Run
 
-```bash
-docker compose -p day6_student_starter stop
+```powershell
+python scripts/validate_benchmark.py
+python -m src.run
 ```
 
-## 2. Chọn embedding model
+Each run creates `results/runs/<run_id>/` containing top-3 traces, aggregate metrics, run configuration and usage, coherence/grounding assessment sheets, and a metadata trace audit. `results/latest_run.txt` identifies the most recent run. Do not run another embedding pass unless a new experiment is intended; it sends requests to the configured provider and may incur cost.
 
-Điền key tương ứng trong `.env` nếu dùng OpenRouter, OpenAI hoặc Gemini; **không commit `.env`**. Model local không cần API key. `requirements.txt` chỉ có dependencies cơ bản: tự cài SDK hoặc thư viện local phù hợp với model bạn chọn và ghi lại version/lệnh cài trong báo cáo. Ghi tên model và số chiều; dùng cùng model cho toàn bộ chiến lược và vector query tương thích vector document.
+The three strategies share corpus, model, vector store, and questions:
 
-## 3. Hoàn thiện pipeline
+- **A:** fixed 500-character chunks with 50-character overlap.
+- **B:** paragraph-aware chunks up to 850 characters.
+- **C:** the same chunks as B, with a year filter only when the question supplies one.
 
-1. Đặt corpus vào `data/` hoặc cung cấp manifest/hướng dẫn truy cập. Đọc [GUIDE.md](../GUIDE.md) về **30 trang nội dung**, quyền dữ liệu và metadata.
-2. Hoàn thiện từng hàm TODO trong `src/`. Lưu ID tài liệu, nguồn, trang/vị trí và ít nhất một trường filter có ích.
-3. Xây ít nhất ba cấu hình; ví dụ A fixed-size, B theo đoạn, C như B nhưng có filter. Cần cùng corpus, model và benchmark; nạp lại không nhân đôi và xử lý chunk cũ khi dữ liệu đổi.
-4. Tự viết ít nhất 20 câu hỏi kèm evidence, tách dev/test trước khi thử theo [BENCHMARK.md](../BENCHMARK.md). Lưu trace top-3 và báo cáo đủ năm tiêu chí.
-5. Sau khi hoàn thiện, chạy `python -m src.run` từ thư mục `starter/`. Trước khi làm TODO, lệnh này **chủ động báo `NotImplementedError`**.
+Search uses exact cosine distance. `scripts/validate_benchmark.py` checks question splits and evidence. `scripts/audit_pdf_pages.py` audits source page extraction and page counts.
 
-Lưu code, cấu hình, kết quả và lệnh chạy để người chấm tái lập; không commit key, dữ liệu mật hoặc dữ liệu không có quyền chia sẻ.
+## Current corpus and benchmark
+
+`data/manifest.csv` documents the two source papers and their permissions; `data/page_audit.csv` records included pages. The corpus has 32 content pages. The benchmark has 20 questions (15 dev, 5 fresh test) and includes metadata-filter questions. The previously exposed test set is archived in `benchmark/exploratory_test_questions.json` and is not the final holdout.
+
+The 2024 paper's arXiv record does not grant a general redistribution license. Its PDF is kept locally and excluded from Git; use the source URL in the manifest to retrieve it. The 2026 paper is CC BY 4.0 and requires attribution when redistributed.
+
+The latest completed run is `results/runs/20261114T042842Z/`. Coherence and grounding labels there are AI-assisted provisional assessments and need author review before being described as manual judgments. Metadata consistency flags are generated from the trace and manifest; spot-check source pages before submission. See the individual report draft under `../report/individual/` for run results, limitations, and remaining student details.

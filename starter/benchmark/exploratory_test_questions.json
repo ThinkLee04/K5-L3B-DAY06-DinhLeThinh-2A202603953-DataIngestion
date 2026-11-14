@@ -1,0 +1,76 @@
+﻿[
+    {
+        "id":  "T01",
+        "split":  "test",
+        "type":  "multi_fact",
+        "question":  "Tập dữ liệu của nghiên cứu Tehran Stock Exchange gồm bao nhiêu cổ phiếu, được chia train/test ra sao và có xử lý độ trễ công bố báo cáo thế nào?",
+        "expected_answer":  "Gồm 413 cổ phiếu; 75% dữ liệu sớm nhất dùng để train và 25% còn lại dùng để test; mô phỏng có tính đến độ trễ công bố báo cáo một tháng.",
+        "gold_source_id":  "arxiv-2412.05297v1",
+        "gold_page":  13,
+        "evidence_quote":  [
+                               "The dataset consists of 413 stocks in the Tehran Stock Exchange (TSE)",
+                               "For the training set, we used the %75 of the data sorted by the earliest publish date, and the other %25 of the data was used for the testing data.",
+                               "The publishing of financial reports has a one-month lag from the scheduled time, and we incorporated this delay in simulations and experiments."
+                           ],
+        "filter":  null
+    },
+    {
+        "id":  "T02",
+        "split":  "test",
+        "type":  "direct",
+        "question":  "Tỷ trọng bốn nhóm feature trong hình phân phối của nghiên cứu Tehran Stock Exchange là bao nhiêu?",
+        "expected_answer":  "Financial ratio 61%; macro and market 18%; stock trading 13%; stock type 8%.",
+        "gold_source_id":  "arxiv-2412.05297v1",
+        "gold_page":  12,
+        "evidence_quote":  [
+                               "Financial ratio\n61%",
+                               "Macro and\nmarket\n18%",
+                               "Stock trading\n13%",
+                               "Stock type\n8%"
+                           ],
+        "filter":  null
+    },
+    {
+        "id":  "T03",
+        "split":  "test",
+        "type":  "metadata_filter",
+        "question":  "Chỉ tra cứu tài liệu có metadata year=2026. Nghiên cứu backtest với vốn ban đầu bao nhiêu, trong giai đoạn nào và trên bao nhiêu mã S\u0026P 500?",
+        "expected_answer":  "Vốn ban đầu 100.000 USD; từ 1/1/2023 đến 1/1/2025; 100 mã large-cap thuộc S\u0026P 500.",
+        "gold_source_id":  "arxiv-2601.19504v1",
+        "gold_page":  8,
+        "evidence_quote":  [
+                               "The model was executed with a starting capital of $100,000 and set to trade during a two-year backtest period starting January 1, 2023, until January 1, 2025.",
+                               "The yfinance API was used to retrieve historical stock price data, which included OHLCV (Open, High, Low, Close, Volume) values, for 100 large-cap S\u0026P 500® tickers."
+                           ],
+        "filter":  {
+                       "year":  2026
+                   }
+    },
+    {
+        "id":  "T04",
+        "split":  "test",
+        "type":  "comparison",
+        "question":  "Chỉ tra cứu tài liệu có metadata year=2026. Trong so sánh hybrid với baseline, final portfolio value và total return của mỗi bên là bao nhiêu?",
+        "expected_answer":  "Hybrid: 235.492,83 USD và 135,49%; baseline: 108.643,27 USD và 8,64%.",
+        "gold_source_id":  "arxiv-2601.19504v1",
+        "gold_page":  9,
+        "evidence_quote":  [
+                               "Final Portfolio Value $235,492.83 $108,643.27",
+                               "Total Return (%) 135.49% 8.64%"
+                           ],
+        "filter":  {
+                       "year":  2026
+                   }
+    },
+    {
+        "id":  "T05",
+        "split":  "test",
+        "type":  "conditional",
+        "question":  "Theo algorithm, ngoài việc chưa có vị thế mở, hệ thống yêu cầu những điều kiện nào trước khi mở vị thế mua?",
+        "expected_answer":  "Market regime phải bullish, giá phải cao hơn EMA200 và hybrid score phải ít nhất 2; đồng thời chưa có vị thế mở.",
+        "gold_source_id":  "arxiv-2601.19504v1",
+        "gold_page":  7,
+        "evidence_quote":  "if Rt is Bullish and Pt \u003e EMA200 and score ≥ 2\nand no open position then",
+        "filter":  null
+    }
+]

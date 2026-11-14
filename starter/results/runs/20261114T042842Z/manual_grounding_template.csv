@@ -1,0 +1,325 @@
+﻿question_id,strategy,question,gold_source_id,gold_pages,top3_chunk_ids,top3_text,grounding_0_to_2,rationale
+F01,A_fixed,Chỉ tra cứu tài liệu có metadata year=2026. Những nhóm dữ liệu có cấu trúc và phi cấu trúc nào được nêu cho AI trading engine?,arxiv-2601.19504v1,2,arxiv-2601.19504v1:2:42e570ad6394c9c2b4e76862;arxiv-2601.19504v1:5:36ece2dc9cd7c81517d90ea1;arxiv-2601.19504v1:3:177498f3d9bb1e8dbfee58d2,"Artificial intelligence in stock trading has reshaped the indus-
+try by offering responsive, sophisticated options that surpass
+the fixed decision-making frameworks based on rigid criteria.
+An AI engine may utilize multiple streams of data, both
+organized, such as prices, volume, volatility, and technical
+indicators, as well as disorganized like financial news, social
+media feeds, earnings call transcripts, and social media. Pro-
+cessing both organized and disorganized data enables AI
+---
+bedded modules: (1) Data Acquisition, (2) Feature Engineer-
+ing and Preprocessing, (3) Sentiment Analysis, (4) Machine
+Learning, (5) Market Regime Detection, (6) Strategy Execu-
+tion, (7) Logging and Reporting , (8) Cloud Deployment. All
+modules work together to provide an adaptive, alpha-seeking
+framework that responds dynamically to market changes and
+harnesses value from both structured and unstructured data.
+Supporting a multi-stock trading universe of over 100
+S&P500® tickers, the system
+---
+ntegrating ML predictions of structured indicators and
+regime-awareness with sentiment data the encapsulated system
+showcases clear adaptability and resilience in modern algorith-
+mic trading patterns. The main contributions of this work are
+summarized as follows
+•Unified Hybrid AI Driven Trading Architecture
+Our proposed trading trademark includes technical indi-
+cators, supervised machine learning, sentiment analysis
+of financial news and market regime identification in a
+single",2,"AI-assisted provisional evidence-only assessment (not answer accuracy): Top-3 includes page 2 listing structured prices, volume, volatility, indicators and unstructured news, social media, earnings-call transcripts. Author checked the label; no score change was requested."
+F02,A_fixed,FinBERT được mô tả là nắm bắt được những sắc thái ngôn ngữ tài chính nào nhờ fine-tuning trên corpus chuyên ngành?,arxiv-2601.19504v1,4,arxiv-2601.19504v1:4:8b644c86fefb18a6da46bd49;arxiv-2601.19504v1:4:3fe9f2ac34ba3bc9348d9a2e;arxiv-2601.19504v1:11:bc038e3fe9f45fad676d5680,"ieves high
+accuracy on datasets containing analyst report and financial
+headlines. Domain-specific corpus finetuning allows the model
+to grasp subtleties such as negation, hedging, and jargon. Still,
+with regard to sentiment and multi-ticker contexts, FinBERT
+can only identify sentiment using named entity recognition
+or ticker-mapping methods. FinBERT requires significant pre-
+processing and context handling when dealing with multi-
+document summarization or real-time news feed processing.
+In
+---
+nous variables
+like macroeconomic indicators, news etc hinders its real-world
+robustness. Adding other modules such as sentiment filters or
+macro signals would ideally help the model generalize across
+market regimes.
+In their work, Araci (2019) [4] created a BERT-based trans-
+former model called FinBERT, which is fine-tuned to analyze
+the sentiment of financial text. FinBERT outperforms generic
+sentiment models on financial text. FinBERT achieves high
+accuracy on datasets containing analyst
+---
+37 (2018)
+[3] Jiang, Z., Xu, D., Liang, J.: A deep reinforcement learning frame-
+work for the financial portfolio management problem.arXiv preprint
+arXiv:1706.10059(2017)
+[4] Araci, D.: FinBERT: Financial sentiment analysis with pre-trained
+language models. In:Proceedings of the 1st Workshop on Financial
+Technology and Natural Language Processing (FinNLP), pp. 1–7 (2019)
+[5] Kelly, B., Pruitt, S.: Market expectations in the cross-section of present
+values.Journal of Finance68(5), 1721–1756",2,"AI-assisted provisional evidence-only assessment (not answer accuracy): Top-3 page 4 explicitly names negation, hedging and jargon as FinBERT capabilities. Author checked the label; no score change was requested."
+F03,A_fixed,Chỉ tra cứu tài liệu có metadata year=2026. Phần System Overview mô tả kiến trúc có bao nhiêu module?,arxiv-2601.19504v1,5,arxiv-2601.19504v1:8:23e7d30e28ca23984f5bc294;arxiv-2412.05297v1:7:12e9facef98aa7a0afff7f00;arxiv-2601.19504v1:5:36ece2dc9cd7c81517d90ea1,"esign
+principles, where every module is a distinct encapsulated
+black box. Each component: data capture, feature engineer-
+ing, predictive modeling, filtering, and trade execution, was
+validated separately before system integration. This type of
+modularity allows for an unparalleled level of reusability and
+decreased maintenance complexity alongside increased system
+extensibility. System elements such as strategies, data, and
+even models can be altered freely without issue.
+System’s historical
+---
+f system design is thepipeline architecture, which allows
+the output of each stage to be stored independently, and each stage can be
+run separately. Stocks have different formats according to their industry, and
+reports’ formats vary over time, so the proposed architecture overcame this
+problem. Figure 1 presents the detailed system diagram.
+5 Stock prediction method
+In the previous section, we discussed the decision support system architecture.
+In this section, we will describe the method for
+---
+bedded modules: (1) Data Acquisition, (2) Feature Engineer-
+ing and Preprocessing, (3) Sentiment Analysis, (4) Machine
+Learning, (5) Market Regime Detection, (6) Strategy Execu-
+tion, (7) Logging and Reporting , (8) Cloud Deployment. All
+modules work together to provide an adaptive, alpha-seeking
+framework that responds dynamically to market changes and
+harnesses value from both structured and unstructured data.
+Supporting a multi-stock trading universe of over 100
+S&P500® tickers, the system",1,AI-assisted provisional evidence-only assessment (not answer accuracy): Top-3 discusses modular system components but does not establish the requested count of eight. Author checked the label; no score change was requested.
+F04,A_fixed,"Trong phần future work, tác giả nêu những nền tảng mạng xã hội nào để mở rộng dữ liệu sentiment?",arxiv-2601.19504v1,10,arxiv-2601.19504v1:10:39894f0cdbebcec5b507ff0b;arxiv-2601.19504v1:4:1ff3a8e23dac812b7c8e55bb;arxiv-2601.19504v1:4:8b644c86fefb18a6da46bd49,"urther enhanced in multiple ways. To be-
+gin with, the scope of sentiment analysis can be augmented to
+cover real-time unstructured data from social media websites
+including Twitter, Reddit, StockTwits and YouTube. These
+platforms target or lead institutional reactions and provide
+advance alerting mechanisms for crowd behavior or specula-
+tive surges. This is further supported by sentiment extraction
+that can also incorporate transcripts of earnings calls, state-
+---
+ng based architectures that include both numerical and
+textual/semantic aspects of the data. Jishag et al. [8] analyzed
+the effects of combining price history with news sentiment
+from India, and demonstrated empirically that news sentiment
+enhances predictive accuracy in relation to price-only models.
+The direction of this research was supported further by An-
+napoorna et al. [9], who created an automated workflow for
+improving the scalability and consistency of the forecasting
+process
+---
+ieves high
+accuracy on datasets containing analyst report and financial
+headlines. Domain-specific corpus finetuning allows the model
+to grasp subtleties such as negation, hedging, and jargon. Still,
+with regard to sentiment and multi-ticker contexts, FinBERT
+can only identify sentiment using named entity recognition
+or ticker-mapping methods. FinBERT requires significant pre-
+processing and context handling when dealing with multi-
+document summarization or real-time news feed processing.
+In",2,"AI-assisted provisional evidence-only assessment (not answer accuracy): Top-3 future-work passage names Twitter, Reddit, StockTwits and YouTube. Author checked the label; no score change was requested."
+F05,A_fixed,Chỉ tra cứu tài liệu có metadata year=2024. Technical analysis trong bài báo thường dùng dữ liệu giá/khối lượng nào và nêu những ví dụ chỉ báo nào?,arxiv-2412.05297v1,5,arxiv-2412.05297v1:5:c8d2d6d9f2930c5d28489239;arxiv-2601.19504v1:3:c14196df93f6b186a90aa3e6;arxiv-2412.05297v1:3:5c9381c8bfd2590eec658b69,"entioned, a line of research is based on technical analysis of stock prices.
+With this approach, stock price prediction is done using OHLC price data along
+with the volume of trades [30, 24]. Some previous works used only raw data
+from price time series, but most technical analysis researches also used technical
+indicators such as SMA, WMA, RSI, MACD, and others [34, 29, 28]. In this
+manner, the selected features (price data with calculated technical indicators)
+are used with a machine learning
+---
+cal Inference, and Empirical Implementation,” [1] examines
+technical analysis algorithms through a rigorous statistical
+lens. The authors use non-parametric kernel regression to
+evaluate the predictive capability of certain chart patterns like
+head-and-shoulders and double bottoms. Their results suggest
+that some patterns do possess considerable forecasting power
+---
+is uses candlestick and volume data to analyze
+and forecast the future price of stock [24]. On the other hand, fundamental
+analysis studies and investigates businesses’ financial reports and then uses these
+data to predict the stock’s future performance. Fundamental analysis has more
+challenges in extracting, analyzing, and modeling data than technical analysis;
+hence, very little research uses this method [34]. Nevertheless, the results gained
+from fundamental approaches are superior to",2,"AI-assisted provisional evidence-only assessment (not answer accuracy): Top-3 page 5 states OHLC and trading volume and lists SMA, WMA, RSI and MACD. Author checked the label; no score change was requested."
+F01,B_paragraph,Chỉ tra cứu tài liệu có metadata year=2026. Những nhóm dữ liệu có cấu trúc và phi cấu trúc nào được nêu cho AI trading engine?,arxiv-2601.19504v1,2,arxiv-2601.19504v1:8:f49d0a21645f20e3750bc609;arxiv-2601.19504v1:2:ce376d5ccfc7d80e41d73925;arxiv-2601.19504v1:5:613da298af4726a0abcce42b,"A. Experimental Setup The development of the hybrid AI-algorithmic trading sys- tem was done using Python under object-oriented design principles, where every module is a distinct encapsulated black box. Each component: data capture, feature engineer-
+
+ing, predictive modeling, filtering, and trade execution, was validated separately before system integration. This type of modularity allows for an unparalleled level of reusability and decreased maintenance complexity alongside increased system extensibility. System elements such as strategies, data, and
+
+even models can be altered freely without issue.
+---
+Artificial intelligence in stock trading has reshaped the indus- try by offering responsive, sophisticated options that surpass the fixed decision-making frameworks based on rigid criteria.
+
+An AI engine may utilize multiple streams of data, both organized, such as prices, volume, volatility, and technical indicators, as well as disorganized like financial news, social media feeds, earnings call transcripts, and social media. Pro- cessing both organized and disorganized data enables AI to
+
+extract signals and make predictions with greater accuracy.
+
+Unlike traditional models, which often use linear assumptions and fail when there is a change in regime, AI models learn and adapt to complex non-linear dependencies across many different market scenarios. More complex models such as XGBoost, LSTMs, and FinBERT, enhance prediction power
+---
+In total, these researches are the building blocks for the intel- ligent trading systems that can be hybrid. Lo et al. (2000) [1] offer a sound theoretical basis for technical analysis in terms of statistics while Atkins et al. (2018) [2] and Araci (2019) [4] showed how important textual data is in the understanding of
+
+market risk and sentiment. Jiang et al. (2017) [3] demonstrates various applications of reinforcement learning to rebalance portfolios dynamically whereas Kelly & Pruitt (2013) [5] present the use of macroeconomic factors when studying market regimes. It is this nexus between technical analysis,",2,AI-assisted provisional evidence-only assessment (not answer accuracy): Top-3 includes page 2 with the required structured and unstructured data groups. Author checked the label; no score change was requested.
+F02,B_paragraph,FinBERT được mô tả là nắm bắt được những sắc thái ngôn ngữ tài chính nào nhờ fine-tuning trên corpus chuyên ngành?,arxiv-2601.19504v1,4,arxiv-2601.19504v1:4:62c832015eb597462a05f800;arxiv-2601.19504v1:6:cba10879e64b6ab9eaadb1aa;arxiv-2601.19504v1:4:6b8c6d59f66076f6d3313a8c,"headlines. Domain-specific corpus finetuning allows the model to grasp subtleties such as negation, hedging, and jargon. Still, with regard to sentiment and multi-ticker contexts, FinBERT can only identify sentiment using named entity recognition or ticker-mapping methods. FinBERT requires significant pre-
+
+processing and context handling when dealing with multi- document summarization or real-time news feed processing.
+
+In their paper “Market Expectations in the Cross-Section of Present Values” published in the Journal of Finance, Kelly and Pruitt (2013) [5] advanced a novel methodology for capturing macroeconomic regime shifts using diffusion index forecasting. The authors perform principal component analysis
+---
+Fig. 2. Proposed Modules
+
+D. Sentiment Analysis To bring in behavioral finance, the project implements Fin- BERT, which is a BERT-based transformer model that was finetuned on financial sentiment analysis. Each news article is run through FinBERT to yield class probabilities for positive,
+
+neutral, and negative sentiments.
+
+The per article sentiment scores are aggregated on a daily basis per ticker with a normalized sentiment score: St = 1N NX i=1
+
+ P (i)positive −P (i)negative  This sentiment scoreSt∈[−1,1]is used as a filter and not as a signal. Trades are suspended or exited if sentiment breach a
+
+threshold of -0.70, which helps defend against downside risk due to adverse news events. FinBERT aids in the identifying of earnings surprises, regulatory captures, guidance cuts, or anything similar even when the prices are lagging.
+---
+assets in order to maximize cumulative return. They tested their model against traditional strategies and achieved better Sharpe ratios. Though it may be seen as an initial step towards autonomous trading agents, its dependence on synthetic en- vironments and limited incorporation of exogenous variables
+
+like macroeconomic indicators, news etc hinders its real-world robustness. Adding other modules such as sentiment filters or macro signals would ideally help the model generalize across market regimes.
+
+In their work, Araci (2019) [4] created a BERT-based trans- former model called FinBERT, which is fine-tuned to analyze the sentiment of financial text. FinBERT outperforms generic sentiment models on financial text. FinBERT achieves high accuracy on datasets containing analyst report and financial",2,"AI-assisted provisional evidence-only assessment (not answer accuracy): Top-3 page 4 explicitly names negation, hedging and jargon as FinBERT capabilities. Author checked the label; no score change was requested."
+F03,B_paragraph,Chỉ tra cứu tài liệu có metadata year=2026. Phần System Overview mô tả kiến trúc có bao nhiêu module?,arxiv-2601.19504v1,5,arxiv-2412.05297v1:7:6e4bdf1f8d019dc590311f65;arxiv-2601.19504v1:8:f49d0a21645f20e3750bc609;arxiv-2412.05297v1:6:100cd4e01dd7f0d3aae09838,"• A crawler is needed for continuous download of announcements.
+
+• Data is published in semi-structured data, populated with texts and num- bers.
+
+• Data format is changed in different quarters, thus requiring a data mapper for unifying formats.
+
+• Stocks in different industries have different report formats.
+
+We need a system architecture to mitigate the mentioned challenges and the capability of crawling online and historically published fundamental data.
+
+The proposed system architecture is a pipeline architecture with the following components and steps: 1) Data Gathering:The data gathering step includes crawling and saving reports’ announcements (online and historical data) in a SQL database.
+
+After downloading announcements, the next step is saving three types of financial reports’ data in their original format (HTML files).
+---
+A. Experimental Setup The development of the hybrid AI-algorithmic trading sys- tem was done using Python under object-oriented design principles, where every module is a distinct encapsulated black box. Each component: data capture, feature engineer-
+
+ing, predictive modeling, filtering, and trade execution, was validated separately before system integration. This type of modularity allows for an unparalleled level of reusability and decreased maintenance complexity alongside increased system extensibility. System elements such as strategies, data, and
+
+even models can be altered freely without issue.
+---
+4. Many known best-performer investors consider fundamental analysis as the method for selecting stock.
+
+4 Decision support system architecture As previously discussed, fundamental analysis approaches have more complexity and challenges than technical analysis approaches. The challenges lie in gather- ing, cleaning, integrating, and exploring published fundamental data. Solares et al. used a four-stage architecture that includes data preprocessing, return fore-
+
+casting, stock selection, and portfolio optimization [41]. Similar architectures are adopted by other works for data collection, feature engineering, strategy formulation, and performance evaluation [9, 13, 6]. Thus, a robust system ar- chitecture is needed to tackle these challenges.",0,AI-assisted provisional evidence-only assessment (not answer accuracy): Top-3 does not provide the System Overview module count. Author checked the label; no score change was requested.
+F04,B_paragraph,"Trong phần future work, tác giả nêu những nền tảng mạng xã hội nào để mở rộng dữ liệu sentiment?",arxiv-2601.19504v1,10,arxiv-2601.19504v1:10:1264a93fed4421c140363a91;arxiv-2412.05297v1:22:2c00b43e50e32b8cf919bbed;arxiv-2601.19504v1:4:43207edd273eb11ee50d0f99,"This research reinforces the hypothesis that combining statisti- cal learning, behavioral NLP signals, and awareness of market movements in real-time can improve trading performance significantly, thus validating the thesis. The hybrid model architecture incorporates the strong explanatory power of the
+
+classic strategies and models with the enormous predictive ca- pabilities of machine learning, creating an extensible adaptable risk framework for next-gen algorithmic trading.
+
+VI. FUTUREWORK This system can be further enhanced in multiple ways. To be- gin with, the scope of sentiment analysis can be augmented to cover real-time unstructured data from social media websites including Twitter, Reddit, StockTwits and YouTube. These
+---
+This work can be used as a groundwork for future researches. The model can consider the investor risk level and propose a customized portfolio concerning the selected level of risk. Also, the model can propose different types of assets, such as real estate, cash, other types of commodities, etc. This model has great achievement in mid- and long-term horizons, but it should be analyzed
+
+more in short-term time horizons. Also, other future works include forecasting commodities with a custom model, using other types of novel machine learning models, and evaluating the method on other countries’ markets.
+---
+Recently, researchers have begun to develop hybrid and deep- learning based architectures that include both numerical and textual/semantic aspects of the data. Jishag et al. [8] analyzed the effects of combining price history with news sentiment from India, and demonstrated empirically that news sentiment
+
+enhances predictive accuracy in relation to price-only models.
+
+The direction of this research was supported further by An- napoorna et al. [9], who created an automated workflow for improving the scalability and consistency of the forecasting process utilizing Facebook Prophet pipelines; however, this pipeline does not provide any deeper semantic understanding
+
+of the news content. Deep-learning based methods address the lack of semantic understanding of news content more directly.",2,AI-assisted provisional evidence-only assessment (not answer accuracy): Top-3 includes the future-work passage naming all four platforms. Author checked the label; no score change was requested.
+F05,B_paragraph,Chỉ tra cứu tài liệu có metadata year=2024. Technical analysis trong bài báo thường dùng dữ liệu giá/khối lượng nào và nêu những ví dụ chỉ báo nào?,arxiv-2412.05297v1,5,arxiv-2601.19504v1:3:1f149073523efc9d534d3ce4;arxiv-2601.19504v1:5:613da298af4726a0abcce42b;arxiv-2412.05297v1:5:bd40d324c63f2e704fcd72c1,"II. RELATEDWORK The work by Lo, Mamaysky, and Wang (2000) “Foundations of Technical Analysis: Computational Algorithms, Statisti- cal Inference, and Empirical Implementation,” [1] examines technical analysis algorithms through a rigorous statistical
+
+lens. The authors use non-parametric kernel regression to evaluate the predictive capability of certain chart patterns like head-and-shoulders and double bottoms. Their results suggest that some patterns do possess considerable forecasting power
+---
+In total, these researches are the building blocks for the intel- ligent trading systems that can be hybrid. Lo et al. (2000) [1] offer a sound theoretical basis for technical analysis in terms of statistics while Atkins et al. (2018) [2] and Araci (2019) [4] showed how important textual data is in the understanding of
+
+market risk and sentiment. Jiang et al. (2017) [3] demonstrates various applications of reinforcement learning to rebalance portfolios dynamically whereas Kelly & Pruitt (2013) [5] present the use of macroeconomic factors when studying market regimes. It is this nexus between technical analysis,
+---
+With this approach, stock price prediction is done using OHLC price data along with the volume of trades [30, 24]. Some previous works used only raw data from price time series, but most technical analysis researches also used technical indicators such as SMA, WMA, RSI, MACD, and others [34, 29, 28]. In this manner, the selected features (price data with calculated technical indicators)
+
+are used with a machine learning method for future return prediction. The most used methods are deep Learning, SVM, and Decision Tree [28, 35, 34].",2,"AI-assisted provisional evidence-only assessment (not answer accuracy): Top-3 includes the gold source/page passage with OHLC, volume and the listed indicators. Author checked the label; no score change was requested."
+F01,C_paragraph_filter,Chỉ tra cứu tài liệu có metadata year=2026. Những nhóm dữ liệu có cấu trúc và phi cấu trúc nào được nêu cho AI trading engine?,arxiv-2601.19504v1,2,arxiv-2601.19504v1:8:f49d0a21645f20e3750bc609;arxiv-2601.19504v1:2:ce376d5ccfc7d80e41d73925;arxiv-2601.19504v1:5:613da298af4726a0abcce42b,"A. Experimental Setup The development of the hybrid AI-algorithmic trading sys- tem was done using Python under object-oriented design principles, where every module is a distinct encapsulated black box. Each component: data capture, feature engineer-
+
+ing, predictive modeling, filtering, and trade execution, was validated separately before system integration. This type of modularity allows for an unparalleled level of reusability and decreased maintenance complexity alongside increased system extensibility. System elements such as strategies, data, and
+
+even models can be altered freely without issue.
+---
+Artificial intelligence in stock trading has reshaped the indus- try by offering responsive, sophisticated options that surpass the fixed decision-making frameworks based on rigid criteria.
+
+An AI engine may utilize multiple streams of data, both organized, such as prices, volume, volatility, and technical indicators, as well as disorganized like financial news, social media feeds, earnings call transcripts, and social media. Pro- cessing both organized and disorganized data enables AI to
+
+extract signals and make predictions with greater accuracy.
+
+Unlike traditional models, which often use linear assumptions and fail when there is a change in regime, AI models learn and adapt to complex non-linear dependencies across many different market scenarios. More complex models such as XGBoost, LSTMs, and FinBERT, enhance prediction power
+---
+In total, these researches are the building blocks for the intel- ligent trading systems that can be hybrid. Lo et al. (2000) [1] offer a sound theoretical basis for technical analysis in terms of statistics while Atkins et al. (2018) [2] and Araci (2019) [4] showed how important textual data is in the understanding of
+
+market risk and sentiment. Jiang et al. (2017) [3] demonstrates various applications of reinforcement learning to rebalance portfolios dynamically whereas Kelly & Pruitt (2013) [5] present the use of macroeconomic factors when studying market regimes. It is this nexus between technical analysis,",2,AI-assisted provisional evidence-only assessment (not answer accuracy): Year-filtered top-3 includes page 2 and the required structured/unstructured data groups. Author checked the label; no score change was requested.
+F02,C_paragraph_filter,FinBERT được mô tả là nắm bắt được những sắc thái ngôn ngữ tài chính nào nhờ fine-tuning trên corpus chuyên ngành?,arxiv-2601.19504v1,4,arxiv-2601.19504v1:4:62c832015eb597462a05f800;arxiv-2601.19504v1:6:cba10879e64b6ab9eaadb1aa;arxiv-2601.19504v1:4:6b8c6d59f66076f6d3313a8c,"headlines. Domain-specific corpus finetuning allows the model to grasp subtleties such as negation, hedging, and jargon. Still, with regard to sentiment and multi-ticker contexts, FinBERT can only identify sentiment using named entity recognition or ticker-mapping methods. FinBERT requires significant pre-
+
+processing and context handling when dealing with multi- document summarization or real-time news feed processing.
+
+In their paper “Market Expectations in the Cross-Section of Present Values” published in the Journal of Finance, Kelly and Pruitt (2013) [5] advanced a novel methodology for capturing macroeconomic regime shifts using diffusion index forecasting. The authors perform principal component analysis
+---
+Fig. 2. Proposed Modules
+
+D. Sentiment Analysis To bring in behavioral finance, the project implements Fin- BERT, which is a BERT-based transformer model that was finetuned on financial sentiment analysis. Each news article is run through FinBERT to yield class probabilities for positive,
+
+neutral, and negative sentiments.
+
+The per article sentiment scores are aggregated on a daily basis per ticker with a normalized sentiment score: St = 1N NX i=1
+
+ P (i)positive −P (i)negative  This sentiment scoreSt∈[−1,1]is used as a filter and not as a signal. Trades are suspended or exited if sentiment breach a
+
+threshold of -0.70, which helps defend against downside risk due to adverse news events. FinBERT aids in the identifying of earnings surprises, regulatory captures, guidance cuts, or anything similar even when the prices are lagging.
+---
+assets in order to maximize cumulative return. They tested their model against traditional strategies and achieved better Sharpe ratios. Though it may be seen as an initial step towards autonomous trading agents, its dependence on synthetic en- vironments and limited incorporation of exogenous variables
+
+like macroeconomic indicators, news etc hinders its real-world robustness. Adding other modules such as sentiment filters or macro signals would ideally help the model generalize across market regimes.
+
+In their work, Araci (2019) [4] created a BERT-based trans- former model called FinBERT, which is fine-tuned to analyze the sentiment of financial text. FinBERT outperforms generic sentiment models on financial text. FinBERT achieves high accuracy on datasets containing analyst report and financial",2,"AI-assisted provisional evidence-only assessment (not answer accuracy): Top-3 page 4 explicitly names negation, hedging and jargon as FinBERT capabilities. Author checked the label; no score change was requested."
+F03,C_paragraph_filter,Chỉ tra cứu tài liệu có metadata year=2026. Phần System Overview mô tả kiến trúc có bao nhiêu module?,arxiv-2601.19504v1,5,arxiv-2601.19504v1:8:f49d0a21645f20e3750bc609;arxiv-2601.19504v1:5:d31d4a9051b2cbe0158a1134;arxiv-2601.19504v1:10:5151732e7b98f5f3c31dee52,"A. Experimental Setup The development of the hybrid AI-algorithmic trading sys- tem was done using Python under object-oriented design principles, where every module is a distinct encapsulated black box. Each component: data capture, feature engineer-
+
+ing, predictive modeling, filtering, and trade execution, was validated separately before system integration. This type of modularity allows for an unparalleled level of reusability and decreased maintenance complexity alongside increased system extensibility. System elements such as strategies, data, and
+
+even models can be altered freely without issue.
+---
+knowledge including technical analysis, machine learning (ML), FinBERT sentiment analysis, and filtering the market regime in a holistic approach. It is coded in Python, executed through AWS EC2 for real-time trading with the Alpaca API, and tested with historical data using Backtrader.
+
+A. System Overview The system consists of a canonical architecture of eight em- bedded modules: (1) Data Acquisition, (2) Feature Engineer- ing and Preprocessing, (3) Sentiment Analysis, (4) Machine Learning, (5) Market Regime Detection, (6) Strategy Execu-
+
+tion, (7) Logging and Reporting , (8) Cloud Deployment. All modules work together to provide an adaptive, alpha-seeking framework that responds dynamically to market changes and harnesses value from both structured and unstructured data.
+---
+outperformed S&P 500 ®, NASDAQ-100, and Dow Jones in returns and capital efficiency. It delivered sector-aligned alpha with the most pronounced effects in technology and con- sumer discretionary stocks which transcended sectorial borders and demonstrated flexible adaptability in different market
+
+regimes—bull, bear, sideways, and high volatility phases.
+
+Noteworthy is the fact that the strategy was implemented on cloud-native architecture using AWS EC2, with integration of Alpaca trading API for live execution, automated email notifi- cations of trades for non-compliance alerting, log alerting auto compliance reporting, and dynamic closed system reporting
+
+sentry compliance alerting.",2,AI-assisted provisional evidence-only assessment (not answer accuracy): Year-filtered top-3 includes the System Overview evidence listing eight modules. Author checked the label; no score change was requested.
+F04,C_paragraph_filter,"Trong phần future work, tác giả nêu những nền tảng mạng xã hội nào để mở rộng dữ liệu sentiment?",arxiv-2601.19504v1,10,arxiv-2601.19504v1:10:1264a93fed4421c140363a91;arxiv-2412.05297v1:22:2c00b43e50e32b8cf919bbed;arxiv-2601.19504v1:4:43207edd273eb11ee50d0f99,"This research reinforces the hypothesis that combining statisti- cal learning, behavioral NLP signals, and awareness of market movements in real-time can improve trading performance significantly, thus validating the thesis. The hybrid model architecture incorporates the strong explanatory power of the
+
+classic strategies and models with the enormous predictive ca- pabilities of machine learning, creating an extensible adaptable risk framework for next-gen algorithmic trading.
+
+VI. FUTUREWORK This system can be further enhanced in multiple ways. To be- gin with, the scope of sentiment analysis can be augmented to cover real-time unstructured data from social media websites including Twitter, Reddit, StockTwits and YouTube. These
+---
+This work can be used as a groundwork for future researches. The model can consider the investor risk level and propose a customized portfolio concerning the selected level of risk. Also, the model can propose different types of assets, such as real estate, cash, other types of commodities, etc. This model has great achievement in mid- and long-term horizons, but it should be analyzed
+
+more in short-term time horizons. Also, other future works include forecasting commodities with a custom model, using other types of novel machine learning models, and evaluating the method on other countries’ markets.
+---
+Recently, researchers have begun to develop hybrid and deep- learning based architectures that include both numerical and textual/semantic aspects of the data. Jishag et al. [8] analyzed the effects of combining price history with news sentiment from India, and demonstrated empirically that news sentiment
+
+enhances predictive accuracy in relation to price-only models.
+
+The direction of this research was supported further by An- napoorna et al. [9], who created an automated workflow for improving the scalability and consistency of the forecasting process utilizing Facebook Prophet pipelines; however, this pipeline does not provide any deeper semantic understanding
+
+of the news content. Deep-learning based methods address the lack of semantic understanding of news content more directly.",2,AI-assisted provisional evidence-only assessment (not answer accuracy): Top-3 includes the future-work passage naming all four platforms. Author checked the label; no score change was requested.
+F05,C_paragraph_filter,Chỉ tra cứu tài liệu có metadata year=2024. Technical analysis trong bài báo thường dùng dữ liệu giá/khối lượng nào và nêu những ví dụ chỉ báo nào?,arxiv-2412.05297v1,5,arxiv-2412.05297v1:5:bd40d324c63f2e704fcd72c1;arxiv-2412.05297v1:22:9888a8cb68044b6da67f1216;arxiv-2412.05297v1:6:66314127c4590e1d8b47470d,"With this approach, stock price prediction is done using OHLC price data along with the volume of trades [30, 24]. Some previous works used only raw data from price time series, but most technical analysis researches also used technical indicators such as SMA, WMA, RSI, MACD, and others [34, 29, 28]. In this manner, the selected features (price data with calculated technical indicators)
+
+are used with a machine learning method for future return prediction. The most used methods are deep Learning, SVM, and Decision Tree [28, 35, 34].
+---
+[2] Saleh Albahli, Tahira Nazir, Marriam Nawaz, and Aun Irtaza. An im- proved densenet model for prediction of stock market using stock technical indicators. Expert Systems with Applications , 232:120903, 2023.
+
+22
+---
+3.5 Comparing technical and fundamental analysis If we want to compare two established fundamental and technical approaches, the following items are achieved [37, 30, 29]: 1. According to Fama’s Efficient Market Hypothesis theory, if the market is in weak form, technical analysis data have no information for traders to
+
+predict stock price.
+
+2. The number of studies associated with fundamental approaches is much lower than that of technical approaches. Reasons for this are harder data gathering, semi-structured data format, more complex modeling of funda- mental data, and so on. This issue creates an opportunity for more work on fundamental data analysis.
+
+3. In the long term, the stock price is determined by business activity per- formance.",2,"AI-assisted provisional evidence-only assessment (not answer accuracy): Year-filtered top-3 includes the gold passage with OHLC, volume and the listed indicators. Author checked the label; no score change was requested."
